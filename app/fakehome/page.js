@@ -1,8 +1,8 @@
 import Head from "next/head";
-import { attributes } from "../../content/home.md";
+import { attributes, react as HomeContent } from "../../content/home.md";
 
 export default function () {
-  let { title, cats } = attributes;
+  let { title, cats, body } = attributes;
   return (
     <>
       <Head>
@@ -19,6 +19,7 @@ export default function () {
             </li>
           ))}
         </ul>
+        <HomeContent></HomeContent>
       </article>
     </>
   );

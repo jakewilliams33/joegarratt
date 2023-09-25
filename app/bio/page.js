@@ -1,8 +1,6 @@
-import { attributes } from "../../content/bio.md";
+import { react as HomeContent } from "../../content/bio.md";
 
 export default function () {
-  let { body } = attributes;
-
   return (
     <>
       <div
@@ -39,7 +37,7 @@ export default function () {
                   margin: "25px 0px 0px 25px",
                 }}
               >
-                {body}
+                <HomeContent />
               </p>
             </div>
           </div>
