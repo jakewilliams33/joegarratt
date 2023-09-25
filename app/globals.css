@@ -1,0 +1,261 @@
+@font-face {
+  font-family: arial black;
+  src: url(../ariblk.ttf);
+}
+
+* {
+  font-family: arial black;
+  color: "white";
+  margin: 0;
+}
+
+::selection {
+  background: #7fe1ce; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: #7fe1ce; /* Gecko Browsers */
+}
+
+.link {
+  text-decoration: none;
+  color: white;
+}
+
+:root {
+  font-size: 24px;
+  --backgroundColor: rgba(255, 255, 255);
+  --squareColor: rgba(0, 0, 0, 1);
+  --squareSize: 11px;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.socials li {
+  margin-right: 20px;
+}
+
+.tiles-container {
+  margin: auto auto auto auto;
+  width: 250px;
+  height: 420px;
+  justify-content: center;
+  display: flex;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+}
+
+.jg-logo {
+  position: absolute;
+  color: white;
+  z-index: 10020;
+  top: 0px;
+  font-size: 34px;
+  left: 50px;
+  letter-spacing: 1.2px;
+}
+
+.list-container {
+  position: absolute;
+  z-index: 1000;
+  color: white;
+  text-align: right;
+  font-size: 24px;
+  top: 200px;
+  margin-left: 130px;
+}
+
+li {
+  list-style: none;
+  margin-top: -6px;
+}
+
+.home-button {
+  color: white;
+}
+
+li:hover {
+  color: #fe0879;
+  cursor: pointer;
+}
+
+.home-button:hover {
+  color: #fe0879;
+}
+
+.color-rect {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 10;
+  top: calc(-16px - 0.4vw);
+  margin-left: calc(18px + 2vw);
+  background: linear-gradient(
+    #ffaa41,
+    #ff6911,
+    #d52379,
+    #2a86ff,
+    #ffaa41,
+    #ff6911,
+    #ff7474,
+    #ffadad,
+    #ffaa41,
+    #ff6911
+  );
+  background-size: 600% 600%;
+  animation: Animation 80s linear infinite;
+}
+
+@keyframes Animation {
+  0% {
+    background-position: 10% 0%;
+  }
+  50% {
+    background-position: 91% 100%;
+  }
+  100% {
+    background-position: 10% 0%;
+  }
+}
+
+.checkers-bg-container {
+  overflow: hidden;
+}
+
+.checkers-bg {
+  width: 150vw;
+  height: 100vw;
+  background-color: var(--backgroundColor);
+  background-image: linear-gradient(
+      45deg,
+      var(--squareColor) 25%,
+      transparent 25%
+    ),
+    linear-gradient(135deg, var(--squareColor) 25%, transparent 25%),
+    linear-gradient(45deg, transparent 75%, var(--squareColor) 75%),
+    linear-gradient(135deg, transparent 75%, var(--squareColor) 75%);
+  background-position: 0 0, var(--squareSize) 0,
+    var(--squareSize) calc(-1 * var(--squareSize)),
+    0 calc(-1 * var(--squareSize));
+  background-size: calc(2 * var(--squareSize)) calc(2 * var(--squareSize));
+  animation: slide 25s linear infinite;
+}
+
+@keyframes slide {
+  0% {
+    transform: translate(0);
+  }
+  100% {
+    transform: translate(-400px); /* The image width */
+  }
+}
+
+.socials-container {
+  position: absolute;
+  bottom: 30px;
+  display: flex;
+  justify-content: left;
+  width: 100vw;
+  color: white;
+}
+
+.socials {
+  display: flex;
+  flex-direction: row;
+}
+
+@media screen and (max-width: 768px) {
+  .socials-container {
+    justify-content: center;
+  }
+}
+
+.coverart-container {
+  width: 200px;
+  height: 200px;
+  justify-content: center;
+  display: flex;
+}
+
+.videos-container {
+  width: 500px;
+  height: 300px;
+  justify-content: center;
+  display: flex;
+}
+
+.videos-page {
+  margin: 50px 100px 0 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.videos-page iframe {
+  margin-right: 30px;
+  top: -18px;
+}
+
+.videos-page :nth-child(even) iframe {
+  margin-left: unset;
+  margin-left: 60px;
+}
+
+.videos-item {
+  position: relative;
+  display: flex;
+  margin-top: 22px;
+}
+
+.videos-page :nth-child(even).videos-item {
+  justify-content: right;
+}
+
+.sky-background {
+  background: linear-gradient(#0068f1, #e1d0e0);
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  z-index: -1000000;
+}
+
+.cloud {
+  overflow: hidden;
+  width: 0px;
+  height: 0px;
+  transform: translate(-100%, -100%);
+  filter: url(#filter);
+}
+
+.clouds-container {
+  left: 0vw;
+  margin: 0 auto 0 auto;
+  width: 130%;
+  height: 130%;
+  position: absolute;
+  overflow: visible;
+  /* animation: slide2 300s linear infinite; */
+
+  opacity: 0.9;
+}
+
+@keyframes slide2 {
+  0% {
+    transform: translate(0%);
+  }
+
+  50% {
+    transform: translate(-65%);
+  }
+
+  100% {
+    transform: translate(0%);
+  }
+}
+
+svg {
+  transform: translateZ(0);
+}
