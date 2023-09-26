@@ -32,7 +32,7 @@ collections:
         file: "content/watch.md"
         fields:
           - label: "Youtube URLs"
-            name: "youtube urls"
+            name: "youtubeurls"
             widget: list
             fields:
               - { label: "URL", name: "url", widget: "string" }
