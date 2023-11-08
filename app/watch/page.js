@@ -7,12 +7,11 @@ export default function watch() {
   return (
     <>
       <div
+        className="night-filter"
         style={{
           position: "fixed",
           width: "100vw",
           height: "100vh",
-          backgroundImage:
-            "linear-gradient(145deg, rgb(5, 28, 129, 0.6), rgb(117, 37, 45, 0.6))",
         }}
       ></div>
       <main
