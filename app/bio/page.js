@@ -29,15 +29,15 @@ export default function () {
                 color: "white",
               }}
             >
-              <p
+              <div
                 style={{
                   textTransform: "uppercase",
                   fontSize: "12px",
-                  margin: "25px 0px 0px 25px",
+                  margin: "15px 0px 0px 25px",
                 }}
               >
                 <HomeContent />
-              </p>
+              </div>
             </div>
           </div>
         </div>
