@@ -1,4 +1,8 @@
+import { attributes } from "../../content/listen.md";
+
 export default function Listen() {
+  let { releases } = attributes;
+
   return (
     <>
       <h3
@@ -15,27 +19,42 @@ export default function Listen() {
         style={{
           justifyContent: "center",
           display: "flex",
+          flexDirection: "column",
         }}
       >
-        <section style={{ display: "flex" }}>
-          <p>LISTEN</p>
-          <div className="coverart-container">
-            <img
-              style={{
-                position: "absolute",
-                zIndex: 10000,
-                height: "inherit",
-                width: "inherit",
-                marginLeft: "35px",
-                marginTop: "20px",
-              }}
-              src="https://hypeddit-gates-prod.s3.amazonaws.com/twwu99_coverartmanual"
-            ></img>
-            <div className="checkers-bg-container">
-              <div className="checkers-bg"></div>
-            </div>
-          </div>
-        </section>
+        {releases.map((item, index) => {
+          return (
+            <section key={index} style={{ display: "flex" }}>
+              <p>{item.title}</p>
+              <div className="coverart-container">
+                <a
+                  target="blank"
+                  style={{
+                    zIndex: 10000,
+                    height: "inherit",
+                    width: "inherit",
+                  }}
+                  href={item.url}
+                >
+                  <img
+                    style={{
+                      position: "absolute",
+                      zIndex: 10000,
+                      height: "inherit",
+                      width: "inherit",
+                      marginLeft: "35px",
+                      marginTop: "20px",
+                    }}
+                    src={item.image}
+                  ></img>
+                </a>
+                <div className="checkers-bg-container">
+                  <div className="checkers-bg"></div>
+                </div>
+              </div>
+            </section>
+          );
+        })}
       </main>
     </>
   );
