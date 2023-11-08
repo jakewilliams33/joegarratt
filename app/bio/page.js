@@ -1,9 +1,11 @@
 import { react as HomeContent } from "../../content/bio.md";
+import "../../styles/bio.css";
 
 export default function () {
   return (
     <>
       <div
+        className="bio-page"
         style={{
           position: "absolute",
           height: "100%",
@@ -13,10 +15,7 @@ export default function () {
         }}
       >
         <h3 style={{ color: "white" }}>BIO</h3>
-        <div
-          style={{ width: "360px", height: "500px", marginLeft: "-20px" }}
-          className="tiles-container"
-        >
+        <div className="tiles-container" style={{ marginLeft: "-18px" }}>
           <div className="checkers-bg-container">
             <div className="checkers-bg"></div>
           </div>
@@ -24,7 +23,7 @@ export default function () {
           <div className="color-rect">
             <div
               style={{
-                width: "115%",
+                width: "110%",
                 textAlign: "left",
                 whiteSpace: "pre-wrap",
                 color: "white",

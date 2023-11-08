@@ -1,7 +1,7 @@
 "use client";
 
 import MyShader from "../Components/MyShader";
-import "./globals.css";
+import "../styles/globals.css";
 import HomeButton from "../Components/HomeButton";
 import { useState } from "react";
 
@@ -13,8 +13,8 @@ export default function RootLayout({ children }) {
       <body>
         <div>
           <div className="sky-background"></div>
-          {/* <MyShader whenLoaded={() => setIsLoaded(true)} /> */}
-          {/* {isLoaded && ( */}
+          {/* <MyShader whenLoaded={() => setIsLoaded(true)} />
+          {isLoaded && ( */}
           <div>
             <HomeButton />
             {children}

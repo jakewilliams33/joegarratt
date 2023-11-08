@@ -1,0 +1,122 @@
+.jg-logo {
+  color: white;
+  z-index: 10020;
+  font-size: 34px;
+  letter-spacing: 1.2px;
+  align-self: flex-end;
+  margin-left: 55px;
+  transition: all 1s;
+}
+
+.home .tiles-container {
+  max-width: 259px;
+  width: 80vw;
+  height: 65vh;
+  transition: all 1s;
+}
+
+.socials li {
+  margin-right: 20px;
+  -webkit-tap-highlight-color: transparent;
+}
+
+li:hover {
+  color: #fe0879;
+}
+
+.link {
+  text-decoration: none;
+  color: white;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.list-container {
+  z-index: 1000;
+  color: white;
+  text-align: right;
+  font-size: 24px;
+  margin-top: 23vh;
+  margin-right: -25px;
+  align-self: flex-end;
+  transition: all 1s;
+}
+
+li {
+  list-style: none;
+  margin-top: -6px;
+  cursor: pointer;
+}
+
+.socials-container {
+  position: absolute;
+  bottom: 30px;
+  display: flex;
+  justify-content: left;
+  width: 100vw;
+  color: white;
+}
+
+.socials {
+  display: flex;
+  flex-direction: row;
+}
+
+.socials-bigger {
+  font-size: 40px;
+  transition: font-size 1s;
+}
+
+.socials-smaller {
+  font-size: 33px;
+  transition: font-size 1s;
+}
+
+@media screen and (max-width: 768px) {
+  .socials-container {
+    justify-content: center;
+  }
+  /* 
+  .tiles-container {
+    margin-left: -20px;
+  } */
+
+  .jg-logo {
+    font-size: 40px;
+    margin-left: 10px;
+  }
+
+  .home .tiles-container {
+    max-width: 280px;
+    height: 64vh;
+    margin-top: -20px;
+    margin-left: -30px;
+  }
+
+  .list-container {
+    font-size: 35px;
+    margin-top: 15vh;
+    margin-right: -35px;
+    align-self: flex-end;
+  }
+
+  .home .color-rect {
+    top: calc(-26px - 0.4vw);
+    margin-left: calc(36px + 3vw);
+  }
+
+  .socials-bigger {
+    font-size: 48px;
+  }
+
+  .socials-smaller {
+    font-size: 39px;
+  }
+
+  .socials-container {
+    margin-left: -10px;
+  }
+
+  .socials li {
+    margin-right: 6vw;
+  }
+}

@@ -1,5 +1,7 @@
 import Link from "next/link";
 import Head from "next/head";
+import "../styles/home.css";
+
 import { AiOutlineInstagram, AiFillYoutube } from "react-icons/ai";
 import { ImFacebook } from "react-icons/im";
 import { BsTwitter, BsSpotify, BsApple } from "react-icons/bs";
@@ -10,7 +12,10 @@ export default function Home() {
       <Head>
         <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
       </Head>
-      <main style={{ position: "absolute", width: "100vw", height: "100%" }}>
+      <main
+        className="home"
+        style={{ position: "absolute", width: "100vw", height: "100%" }}
+      >
         <div className="tiles-container">
           <div className="checkers-bg-container">
             <div className="checkers-bg"></div>
@@ -38,22 +43,22 @@ export default function Home() {
         <div className="socials-container">
           <ul style={{}} className="socials">
             <li>
-              <AiOutlineInstagram size={40} />
+              <AiOutlineInstagram className="socials-bigger" />
             </li>
             <li>
-              <ImFacebook size={33} />
+              <ImFacebook className="socials-smaller" />
             </li>
             <li>
-              <BsTwitter size={33} />
+              <BsTwitter className="socials-smaller" />
             </li>
             <li>
-              <AiFillYoutube size={40} />
+              <AiFillYoutube className="socials-bigger" />
             </li>
             <li>
-              <BsSpotify size={33} />
+              <BsSpotify className="socials-smaller" />
             </li>
             <li>
-              <BsApple size={33} />
+              <BsApple className="socials-smaller" />
             </li>
           </ul>
         </div>

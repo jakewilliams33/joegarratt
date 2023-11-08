@@ -1,4 +1,5 @@
 import { attributes } from "../../content/watch.md";
+import "../../styles/watch.css";
 
 export default function watch() {
   let { youtubeurls } = attributes;

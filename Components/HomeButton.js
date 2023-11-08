@@ -11,9 +11,16 @@ export default function HomeButton() {
   return (
     <>
       {pathname === "/" ? null : (
-        <Link style={{ position: "absolute", zIndex: 10000000000 }} href="/">
+        <Link
+          style={{
+            position: "absolute",
+            zIndex: 10000000000,
+            WebkitTapHighlightColor: "transparent",
+          }}
+          href="/"
+        >
           <div className="home-button">
-            <AiFillHome size={30} style={{ margin: "20px 0 0 20px" }} />
+            <AiFillHome size={40} style={{ margin: "20px 0 0 20px" }} />
           </div>
         </Link>
       )}

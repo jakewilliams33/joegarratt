@@ -1,5 +1,5 @@
 backend:
-  name: git-gateway
+  name: test-repo
   branch: main # Branch to update (optional; defaults to master)
 media_folder: public/images
 public_folder: /images
@@ -8,6 +8,7 @@ publish_mode: editorial_workflow
 collections:
   - name: "pages"
     label: "Pages"
+    description: "Hi Joe"
     files:
       - label: "Home"
         name: "home"

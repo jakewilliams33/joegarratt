@@ -1,0 +1,14 @@
+.bio-page .tiles-container {
+  max-width: 500px;
+  min-width: none;
+  width: 60vw;
+  height: 65vh;
+}
+
+.bio-page .color-rect {
+  top: calc(-24px - 0.4vw);
+  margin-left: calc(38px + 2vw);
+}
+
+@media screen and (max-width: 768px) {
+}
