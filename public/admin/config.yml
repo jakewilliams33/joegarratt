@@ -41,8 +41,8 @@ collections:
               - { label: "URL", name: "url", widget: "string" }
               - { label: "Image", name: "image", widget: "image" }
       - label: "Menu Links"
-        name: "menu links"
-        file: "content/menu_links.md"
+        name: "menulinks"
+        file: "content/menulinks.md"
         fields:
           - { label: "Shop", name: "shop", widget: "string" }
           - { label: "Instagram", name: "instagram", widget: "string" }
