@@ -1,6 +1,6 @@
 "use client";
 
-import { useScript } from "../../Hooks/UseScript";
+import { useScript } from "../../Hooks/useScript";
 import "../../styles/tour.css";
 
 export default function tour() {
