@@ -14,15 +14,15 @@ export default function RootLayout({ children }) {
       <body>
         <div>
           <div className="sky-background"></div>
-          {/* {useIsTabActive() && (
-            <MyShader whenLoaded={() => setIsLoaded(true)} />
+
+          <MyShader whenLoaded={() => setIsLoaded(true)} />
+
+          {isLoaded && (
+            <div>
+              <HomeButton />
+              {children}
+            </div>
           )}
-          {isLoaded && ( */}
-          <div>
-            <HomeButton />
-            {children}
-          </div>
-          {/* )} */}
         </div>
       </body>
     </html>

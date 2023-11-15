@@ -1,8 +1,7 @@
 import Link from "next/link";
 import Head from "next/head";
 import "../styles/home.css";
-
-import { AiOutlineInstagram, AiFillYoutube } from "react-icons/ai";
+import { attributes } from "../content/menulinks.md";
 import { ImFacebook } from "react-icons/im";
 import {
   BsTwitterX,
@@ -45,11 +44,8 @@ export default function Home() {
                 <Link className="link" href="/tour">
                   <li>TOUR</li>
                 </Link>
-                <a
-                  className="link"
-                  href="https://joegarratt.bandcamp.com/"
-                  target="blank"
-                >
+
+                <a target="blank" className="link" href={attributes.shop}>
                   <li>SHOP</li>
                 </a>
                 <Link className="link" href="/bio">
@@ -61,24 +57,36 @@ export default function Home() {
         </div>
         <div className="socials-container">
           <ul className="socials">
-            <li style={{ position: "relative", top: 1 }}>
-              <BsInstagram />
-            </li>
-            <li>
-              <ImFacebook />
-            </li>
-            <li>
-              <BsTwitterX />
-            </li>
-            <li>
-              <BsYoutube />
-            </li>
-            <li>
-              <BsSpotify />
-            </li>
-            <li style={{ position: "relative", bottom: 4 }}>
-              <BsApple />
-            </li>
+            <a className="link" target="blank" href={attributes.instagram}>
+              <li style={{ position: "relative", top: 1 }}>
+                <BsInstagram />
+              </li>
+            </a>
+            <a className="link" target="blank" href={attributes.facebook}>
+              <li>
+                <ImFacebook />
+              </li>
+            </a>
+            <a className="link" target="blank" href={attributes.x}>
+              <li>
+                <BsTwitterX />
+              </li>
+            </a>
+            <a className="link" target="blank" href={attributes.youtube}>
+              <li>
+                <BsYoutube />
+              </li>
+            </a>
+            <a className="link" target="blank" href={attributes.spotify}>
+              <li>
+                <BsSpotify />
+              </li>
+            </a>
+            <a className="link" target="blank" href={attributes.apple}>
+              <li style={{ position: "relative", bottom: 4 }}>
+                <BsApple />
+              </li>
+            </a>
           </ul>
         </div>
       </main>
