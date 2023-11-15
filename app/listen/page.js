@@ -29,7 +29,19 @@ export default function listen() {
           {releases.map((item, index) => {
             return (
               <div key={index} className="listen-item">
-                <p style={{ textTransform: "uppercase" }}>{item.title}</p>
+                <div>
+                  <div
+                    style={{
+                      fontSize: 20,
+                      textTransform: "uppercase",
+                      overflowWrap: "break-word",
+                      display: "inline-block",
+                      wordBreak: "break-word",
+                    }}
+                  >
+                    <p>{item.title}</p>
+                  </div>
+                </div>
 
                 <div className="listen-container">
                   <img

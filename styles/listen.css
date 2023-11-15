@@ -10,12 +10,14 @@
 }
 
 .listen-page {
-  margin: 50px 100px 0 100px;
+  margin: 50px auto 0 auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
   text-align: center;
   color: white;
+  max-width: 1000px;
+  padding: 0 100px 0 100px;
 }
 
 .listen-page img {
@@ -34,7 +36,7 @@
   position: relative;
   display: flex;
   margin-top: 22px;
-  margin-bottom: calc(350px - (1vw * 40));
+  margin-bottom: calc(350px - (1vw * 35));
   flex-direction: row-reverse;
   justify-content: left;
   align-items: center;
@@ -62,5 +64,8 @@
 @media screen and (max-width: 768px) {
   .listen-item {
     margin-bottom: 50px;
+  }
+  .listen-page {
+    padding: 0 40px 0 40px;
   }
 }
