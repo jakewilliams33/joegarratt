@@ -1,13 +1,15 @@
 .bio-page .tiles-container {
   max-width: 500px;
   min-width: none;
-  width: 60vw;
+  width: 50vw;
   height: 65vh;
+  transition: all 0.3s;
 }
 
 .bio-page .color-rect {
   top: calc(-24px - 0.4vw);
   margin-left: calc(38px + 2vw);
+  transition: all 1s;
 }
 
 .bio-page p {
@@ -18,7 +20,7 @@
   .bio-page .tiles-container {
     margin-top: 15px;
     width: 70vw;
-    height: 80vh;
+    height: 65vh;
   }
 
   .bio-page p {

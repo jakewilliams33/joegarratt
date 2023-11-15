@@ -29,6 +29,7 @@ export default function watch() {
             textAlign: "center",
             fontSize: "40px",
             color: "white",
+            marginTop: "12px",
           }}
         >
           WATCH

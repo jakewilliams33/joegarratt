@@ -1,61 +1,55 @@
+import "../../styles/listen.css";
 import { attributes } from "../../content/listen.md";
 
-export default function Listen() {
+export default function listen() {
   let { releases } = attributes;
-
   return (
-    <>
-      <h3
+    <main
+      style={{
+        position: "absolute",
+        top: 0,
+        left: 0,
+        width: "100vw",
+        height: "100%",
+      }}
+    >
+      <h1
         style={{
           zIndex: 10909,
           textAlign: "center",
           fontSize: "40px",
           color: "white",
+          marginTop: "12px",
         }}
       >
         LISTEN
-      </h3>
-      <main
-        style={{
-          justifyContent: "center",
-          display: "flex",
-          flexDirection: "column",
-        }}
-      >
-        {releases.map((item, index) => {
-          return (
-            <section key={index} style={{ display: "flex" }}>
-              <p>{item.title}</p>
-              <div className="coverart-container">
-                <a
-                  target="blank"
-                  style={{
-                    zIndex: 10000,
-                    height: "inherit",
-                    width: "inherit",
-                  }}
-                  href={item.url}
-                >
+      </h1>
+      <div className="listen-page">
+        <div className="releases">
+          {releases.map((item, index) => {
+            return (
+              <div key={index} className="listen-item">
+                <p style={{ textTransform: "uppercase" }}>{item.title}</p>
+
+                <div className="listen-container">
                   <img
                     style={{
                       position: "absolute",
                       zIndex: 10000,
                       height: "inherit",
                       width: "inherit",
-                      marginLeft: "35px",
-                      marginTop: "20px",
                     }}
                     src={item.image}
                   ></img>
-                </a>
-                <div className="checkers-bg-container">
-                  <div className="checkers-bg"></div>
+                  <div className="checkers-bg-container">
+                    <div className="checkers-bg"></div>
+                  </div>
                 </div>
               </div>
-            </section>
-          );
-        })}
-      </main>
-    </>
+            );
+          })}
+        </div>
+      </div>
+    </main>
   );
 }

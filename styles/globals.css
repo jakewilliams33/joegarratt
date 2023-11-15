@@ -3,10 +3,18 @@
   src: url(../ariblk.ttf);
 }
 
+ul {
+  padding-inline-start: 0px;
+}
+
 * {
   font-family: arial black;
   color: "white";
   margin: 0;
+}
+
+main {
+  min-width: 360px;
 }
 
 ::selection {
@@ -28,12 +36,11 @@ body {
 }
 
 .tiles-container {
-  margin: auto auto auto auto;
   justify-content: center;
   display: flex;
-  top: 50%;
+  top: 40%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -40%);
   position: absolute;
 }
 
@@ -94,7 +101,7 @@ body {
 }
 
 .checkers-bg {
-  width: 200vw;
+  width: 100vw;
   height: 200vw;
   background-color: var(--backgroundColor);
   background-image: linear-gradient(
@@ -109,7 +116,7 @@ body {
     var(--squareSize) calc(-1 * var(--squareSize)),
     0 calc(-1 * var(--squareSize));
   background-size: calc(2 * var(--squareSize)) calc(2 * var(--squareSize));
-  animation: slide 25s linear infinite;
+  animation: slide 1s linear infinite;
 }
 
 @keyframes slide {
@@ -117,15 +124,8 @@ body {
     transform: translate(0);
   }
   100% {
-    transform: translate(-400px); /* The image width */
+    transform: translate(-44px); /* The image width */
   }
-}
-
-.coverart-container {
-  width: 200px;
-  height: 200px;
-  justify-content: center;
-  display: flex;
 }
 
 .sky-background {

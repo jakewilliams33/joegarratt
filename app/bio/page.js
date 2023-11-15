@@ -4,17 +4,26 @@ import "../../styles/bio.css";
 export default function () {
   return (
     <>
-      <div
+      <main
         className="bio-page"
         style={{
           position: "absolute",
           height: "100%",
           width: "100vw",
           textAlign: "center",
-          marginTop: "15px",
         }}
       >
-        <h3 style={{ color: "white" }}>BIO</h3>
+        <h3
+          style={{
+            zIndex: 10909,
+            textAlign: "center",
+            fontSize: "40px",
+            color: "white",
+            marginTop: "12px",
+          }}
+        >
+          BIO
+        </h3>
         <div className="tiles-container" style={{ marginLeft: "-18px" }}>
           <div className="checkers-bg-container">
             <div className="checkers-bg"></div>
@@ -41,7 +50,7 @@ export default function () {
             </div>
           </div>
         </div>
-      </div>
+      </main>
     </>
   );
 }

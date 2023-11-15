@@ -8,6 +8,10 @@
   transition: all 1s;
 }
 
+.home {
+  overflow: hidden;
+}
+
 .home .tiles-container {
   max-width: 259px;
   width: 80vw;
@@ -48,12 +52,15 @@ li {
 }
 
 .socials-container {
+  padding-left: 2vw;
   position: absolute;
   bottom: 30px;
-  display: flex;
-  justify-content: left;
   width: 100vw;
   color: white;
+  position: absolute;
+  transition: transform 1s;
+  left: 0%;
+  transform: translateX(-0%);
 }
 
 .socials {
@@ -113,10 +120,11 @@ li {
   }
 
   .socials-container {
-    margin-left: -10px;
+    left: 50%;
+    transform: translateX(-50%);
   }
 
-  .socials li {
-    margin-right: 6vw;
+  .socials {
+    justify-content: space-evenly;
   }
 }

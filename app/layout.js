@@ -13,13 +13,13 @@ export default function RootLayout({ children }) {
       <body>
         <div>
           <div className="sky-background"></div>
-          {/* <MyShader whenLoaded={() => setIsLoaded(true)} />
-          {isLoaded && ( */}
-          <div>
-            <HomeButton />
-            {children}
-          </div>
-          {/* )} */}
+          <MyShader whenLoaded={() => setIsLoaded(true)} />
+          {isLoaded && (
+            <div>
+              <HomeButton />
+              {children}
+            </div>
+          )}
         </div>
       </body>
     </html>

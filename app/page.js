@@ -14,13 +14,18 @@ export default function Home() {
       </Head>
       <main
         className="home"
-        style={{ position: "absolute", width: "100vw", height: "100%" }}
+        style={{
+          position: "absolute",
+          width: "100vw",
+          height: "100%",
+          minHeight: "570px",
+        }}
       >
         <div className="tiles-container">
-          <div className="checkers-bg-container">
+          <div className="checkers-bg-container" style={{ minHeight: "340px" }}>
             <div className="checkers-bg"></div>
           </div>
-          <div className="color-rect">
+          <div className="color-rect" style={{ minHeight: "340px" }}>
             <h3 className="jg-logo">JOEGARRATT</h3>
 
             <div className="list-container">
@@ -41,7 +46,7 @@ export default function Home() {
           </div>
         </div>
         <div className="socials-container">
-          <ul style={{}} className="socials">
+          <ul className="socials">
             <li>
               <AiOutlineInstagram className="socials-bigger" />
             </li>
