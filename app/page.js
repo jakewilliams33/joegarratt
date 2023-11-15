@@ -4,7 +4,13 @@ import "../styles/home.css";
 
 import { AiOutlineInstagram, AiFillYoutube } from "react-icons/ai";
 import { ImFacebook } from "react-icons/im";
-import { BsTwitter, BsSpotify, BsApple } from "react-icons/bs";
+import {
+  BsTwitterX,
+  BsSpotify,
+  BsApple,
+  BsInstagram,
+  BsYoutube,
+} from "react-icons/bs";
 
 export default function Home() {
   return (
@@ -36,8 +42,16 @@ export default function Home() {
                 <Link className="link" href="/watch">
                   <li>WATCH</li>
                 </Link>
-                <li>TOUR</li>
-                <li>SHOP</li>
+                <Link className="link" href="/tour">
+                  <li>TOUR</li>
+                </Link>
+                <a
+                  className="link"
+                  href="https://joegarratt.bandcamp.com/"
+                  target="blank"
+                >
+                  <li>SHOP</li>
+                </a>
                 <Link className="link" href="/bio">
                   <li>BIO</li>
                 </Link>
@@ -47,23 +61,23 @@ export default function Home() {
         </div>
         <div className="socials-container">
           <ul className="socials">
-            <li>
-              <AiOutlineInstagram className="socials-bigger" />
+            <li style={{ position: "relative", top: 1 }}>
+              <BsInstagram />
             </li>
             <li>
-              <ImFacebook className="socials-smaller" />
+              <ImFacebook />
             </li>
             <li>
-              <BsTwitter className="socials-smaller" />
+              <BsTwitterX />
             </li>
             <li>
-              <AiFillYoutube className="socials-bigger" />
+              <BsYoutube />
             </li>
             <li>
-              <BsSpotify className="socials-smaller" />
+              <BsSpotify />
             </li>
-            <li>
-              <BsApple className="socials-smaller" />
+            <li style={{ position: "relative", bottom: 4 }}>
+              <BsApple />
             </li>
           </ul>
         </div>

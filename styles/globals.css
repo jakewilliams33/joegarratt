@@ -8,9 +8,17 @@ ul {
 }
 
 * {
-  font-family: arial black;
   color: "white";
   margin: 0;
+}
+
+.page-header {
+  z-index: 10909;
+  text-align: center;
+  font-size: 40px;
+  color: white;
+  margin-top: 12px;
+  font-family: arial black;
 }
 
 main {
@@ -116,7 +124,7 @@ body {
     var(--squareSize) calc(-1 * var(--squareSize)),
     0 calc(-1 * var(--squareSize));
   background-size: calc(2 * var(--squareSize)) calc(2 * var(--squareSize));
-  animation: slide 1s linear infinite;
+  animation: slide 2.5s linear infinite;
 }
 
 @keyframes slide {

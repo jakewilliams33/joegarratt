@@ -1,8 +1,6 @@
 .listen-container {
   justify-content: center;
   display: flex;
-  /* width: 400px;
-  height: 225px; */
   max-width: 333px;
   max-height: 333px;
   width: 45vw;
@@ -17,7 +15,8 @@
   text-align: center;
   color: white;
   max-width: 1000px;
-  padding: 0 100px 0 100px;
+  padding: 0px 100px 200px 100px;
+  font-family: arial black;
 }
 
 .listen-page img {
@@ -25,6 +24,7 @@
   top: -18px;
   max-width: 333px;
   max-height: 333px;
+  transition: all 0.3s;
 }
 
 .listen-item:nth-of-type(even) img {
@@ -35,8 +35,9 @@
 .listen-item {
   position: relative;
   display: flex;
-  margin-top: 22px;
+  margin-top: 50px;
   margin-bottom: calc(350px - (1vw * 35));
+
   flex-direction: row-reverse;
   justify-content: left;
   align-items: center;
@@ -46,6 +47,20 @@
   margin-left: 2vw;
 }
 
+.listen-item :hover {
+  color: #fe0879;
+}
+
+.listen-page :nth-child(even).listen-item :hover img {
+  top: -9px;
+  margin-right: 70px;
+}
+
+.listen-page :nth-child(odd).listen-item :hover img {
+  top: -9px;
+  margin-right: 20px;
+}
+
 .listen-page :nth-child(even).listen-item {
   justify-content: right;
   flex-direction: row;
@@ -53,6 +68,15 @@
 
 .listen-page :nth-child(even).listen-item p {
   margin-right: 2vw;
+}
+
+.text-side {
+  text-transform: uppercase;
+  font-size: calc(17px + 1.4vw);
+  margin-bottom: 20px;
+  overflow-wrap: break-word;
+  display: inline-block;
+  word-break: break-word;
 }
 
 @media screen and (max-width: 850px) {
@@ -67,5 +91,15 @@
   }
   .listen-page {
     padding: 0 40px 0 40px;
+  }
+}
+
+@media screen and (min-width: 1300px) {
+  .listen-item {
+    margin-bottom: -130px;
+  }
+
+  .text-side {
+    font-size: 35px;
   }
 }

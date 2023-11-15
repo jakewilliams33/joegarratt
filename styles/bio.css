@@ -1,3 +1,7 @@
+.bio-page {
+  font-family: arial black;
+}
+
 .bio-page .tiles-container {
   max-width: 500px;
   min-width: none;

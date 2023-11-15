@@ -15,6 +15,7 @@ export default function watch() {
         }}
       ></div>
       <main
+        className="watch-page"
         style={{
           position: "absolute",
           top: 0,
@@ -23,17 +24,7 @@ export default function watch() {
           height: "100%",
         }}
       >
-        <h3
-          style={{
-            zIndex: 10909,
-            textAlign: "center",
-            fontSize: "40px",
-            color: "white",
-            marginTop: "12px",
-          }}
-        >
-          WATCH
-        </h3>
+        <h3 className="page-header">WATCH</h3>
         <div className="videos-page">
           {youtubeurls.map((item, index) => {
             return (

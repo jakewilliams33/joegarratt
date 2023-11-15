@@ -10,6 +10,7 @@
 
 .home {
   overflow: hidden;
+  font-family: arial black;
 }
 
 .home .tiles-container {
@@ -68,14 +69,9 @@ li {
   flex-direction: row;
 }
 
-.socials-bigger {
-  font-size: 40px;
+.socials li {
   transition: font-size 1s;
-}
-
-.socials-smaller {
-  font-size: 33px;
-  transition: font-size 1s;
+  font-size: 35px;
 }
 
 @media screen and (max-width: 768px) {
@@ -111,14 +107,6 @@ li {
     margin-left: calc(36px + 3vw);
   }
 
-  .socials-bigger {
-    font-size: 48px;
-  }
-
-  .socials-smaller {
-    font-size: 39px;
-  }
-
   .socials-container {
     left: 50%;
     transform: translateX(-50%);
@@ -126,5 +114,10 @@ li {
 
   .socials {
     justify-content: space-evenly;
+  }
+
+  .socials li {
+    transition: font-size 1s;
+    font-size: 40px;
   }
 }

@@ -13,18 +13,11 @@ export default function () {
           textAlign: "center",
         }}
       >
-        <h3
-          style={{
-            zIndex: 10909,
-            textAlign: "center",
-            fontSize: "40px",
-            color: "white",
-            marginTop: "12px",
-          }}
+        <h1 className="page-header">BIO</h1>
+        <div
+          className="tiles-container"
+          style={{ marginLeft: "-18px", marginTop: "40px" }}
         >
-          BIO
-        </h3>
-        <div className="tiles-container" style={{ marginLeft: "-18px" }}>
           <div className="checkers-bg-container">
             <div className="checkers-bg"></div>
           </div>

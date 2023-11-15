@@ -13,7 +13,7 @@ export default function HomeButton() {
       {pathname === "/" ? null : (
         <Link
           style={{
-            position: "absolute",
+            position: "fixed",
             zIndex: 10000000000,
             WebkitTapHighlightColor: "transparent",
           }}

@@ -9,6 +9,10 @@
   max-height: 338px;
 }
 
+.watch-page {
+  font-family: arial black;
+}
+
 .videos-page {
   margin: 50px 100px 0 100px;
   display: flex;
