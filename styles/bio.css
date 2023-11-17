@@ -3,11 +3,13 @@
 }
 
 .bio-page .tiles-container {
-  max-width: 500px;
+  max-width: 400px;
   min-width: none;
   width: 50vw;
   height: 65vh;
   transition: all 0.3s;
+  margin-top: 70px;
+  max-height: 520px;
 }
 
 .bio-page .color-rect {
@@ -16,7 +18,7 @@
   transition: all 1s;
 }
 
-.bio-page p {
+.bio-page {
   font-size: 12px;
 }
 
@@ -29,5 +31,17 @@
 
   .bio-page p {
     font-size: 11.5px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .bio-page .tiles-container {
+    width: 73vw;
+    height: 78vh;
+    margin-top: 60px;
+  }
+
+  .bio-page p {
+    font-size: 11px;
   }
 }

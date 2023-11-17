@@ -3,6 +3,12 @@
   src: url(../ariblk.ttf);
 }
 
+.link {
+  text-decoration: none;
+  color: white;
+  -webkit-tap-highlight-color: transparent;
+}
+
 ul {
   padding-inline-start: 0px;
 }

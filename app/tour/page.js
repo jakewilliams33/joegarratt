@@ -25,13 +25,7 @@ export default function tour() {
               <div className="checkers-bg"></div>
             </div>
 
-            <div
-              className="color-rect custom-scroll"
-              // style={{
-              //   height: "inherit",
-              //   overflow: "scroll",
-              // }}
-            >
+            <div className="color-rect custom-scroll">
               <div
                 style={{
                   zIndex: 100201922102,
@@ -42,7 +36,7 @@ export default function tour() {
               >
                 <a
                   href="https://www.songkick.com/artists/389710"
-                  class="songkick-widget"
+                  className="songkick-widget"
                   data-theme="light"
                   data-track-button="on"
                   data-detect-style="on"

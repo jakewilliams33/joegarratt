@@ -1,3 +1,5 @@
+"use client";
+
 import Link from "next/link";
 import Head from "next/head";
 import "../styles/home.css";
@@ -58,7 +60,7 @@ export default function Home() {
         <div className="socials-container">
           <ul className="socials">
             <a className="link" target="blank" href={attributes.instagram}>
-              <li style={{ position: "relative", top: 1 }}>
+              <li style={{ position: "relative", bottom: -1 }}>
                 <BsInstagram />
               </li>
             </a>

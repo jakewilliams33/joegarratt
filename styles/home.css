@@ -25,25 +25,19 @@
   -webkit-tap-highlight-color: transparent;
 }
 
-li:hover {
-  color: #fe0879;
-}
-
-.link {
-  text-decoration: none;
-  color: white;
-  -webkit-tap-highlight-color: transparent;
-}
-
 .list-container {
   z-index: 1000;
   color: white;
   text-align: right;
-  font-size: 24px;
-  margin-top: 23vh;
+  margin-top: 19vh;
   margin-right: -25px;
   align-self: flex-end;
   transition: all 1s;
+}
+
+.list-container li {
+  font-size: 29px;
+  transition: all 0.1s;
 }
 
 li {
@@ -54,14 +48,21 @@ li {
 
 .socials-container {
   padding-left: 2vw;
-  position: absolute;
-  bottom: 30px;
+  bottom: 10px;
   width: 100vw;
   color: white;
   position: absolute;
   transition: transform 1s;
   left: 0%;
   transform: translateX(-0%);
+  display: flex;
+  align-items: center;
+  height: 100px;
+}
+
+.socials-container ul {
+  display: flex;
+  align-items: center;
 }
 
 .socials {
@@ -70,18 +71,43 @@ li {
 }
 
 .socials li {
-  transition: font-size 1s;
+  transition: all 0.1s;
   font-size: 35px;
+  position: relative;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .list-container li:hover {
+    font-size: 33px;
+    color: rgb(175, 255, 255);
+  }
+
+  .socials li:hover {
+    font-size: 45px;
+    color: rgb(175, 255, 255);
+  }
 }
 
 @media screen and (max-width: 768px) {
+  /* mobile */
+  .list-container li {
+    font-size: 35px;
+    transition: all 0.1s;
+    margin-top: 0px;
+  }
+
+  @media (hover: hover) and (pointer: fine) {
+    .list-container li:hover {
+      font-size: 38px;
+    }
+    .socials li:hover {
+      font-size: 46px;
+    }
+  }
+
   .socials-container {
     justify-content: center;
   }
-  /* 
-  .tiles-container {
-    margin-left: -20px;
-  } */
 
   .jg-logo {
     font-size: 40px;
@@ -96,8 +122,7 @@ li {
   }
 
   .list-container {
-    font-size: 35px;
-    margin-top: 15vh;
+    margin-top: 10vh;
     margin-right: -35px;
     align-self: flex-end;
   }
@@ -117,7 +142,7 @@ li {
   }
 
   .socials li {
-    transition: font-size 1s;
     font-size: 40px;
+    transition: all 0.1s;
   }
 }

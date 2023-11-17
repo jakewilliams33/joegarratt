@@ -14,10 +14,7 @@ export default function () {
         }}
       >
         <h1 className="page-header">BIO</h1>
-        <div
-          className="tiles-container"
-          style={{ marginLeft: "-18px", marginTop: "40px" }}
-        >
+        <div className="tiles-container" style={{ marginLeft: "-20px" }}>
           <div className="checkers-bg-container">
             <div className="checkers-bg"></div>
           </div>
@@ -25,7 +22,7 @@ export default function () {
           <div className="color-rect">
             <div
               style={{
-                width: "110%",
+                width: "112%",
                 textAlign: "left",
                 whiteSpace: "pre-wrap",
                 color: "white",

@@ -19,13 +19,12 @@ export default function listen() {
           {releases.map((item, index) => {
             return (
               <div key={index} className="listen-item">
-                <div>
-                  <div className="text-side">
-                    <a target="blank" className="link" href={item.url}>
-                      <p>{item.title}</p>
-                    </a>
-                  </div>
+                <div className="text-side">
+                  <a target="blank" className="link" href={item.url}>
+                    <p>{item.title}</p>
+                  </a>
                 </div>
+
                 <a target="blank" href={item.url}>
                   <div className="listen-container">
                     <img
