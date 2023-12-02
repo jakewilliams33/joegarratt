@@ -114,6 +114,7 @@ body {
 
 .checkers-bg-container {
   overflow: hidden;
+  z-index: -1;
 }
 
 .checkers-bg {
