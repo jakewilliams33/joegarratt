@@ -1,10 +1,8 @@
-"use client";
-
-import "../../styles/listen.css";
-import { attributes } from "../../content/listen.md";
+import { attributes } from "../content/listen.md";
 import { useRef } from "react";
+import { motion } from "framer-motion";
 
-export default function listen() {
+export default function listen({ variants, transitionSpeed }) {
   let { releases } = attributes;
   const text = useRef({});
   const coverImage = useRef({});
@@ -20,7 +18,12 @@ export default function listen() {
   };
 
   return (
-    <main
+    <motion.main
+      variants={variants}
+      initial="initial"
+      animate="animate"
+      exit="exit"
+      transition={{ duration: transitionSpeed }}
       style={{
         position: "absolute",
         top: 0,
@@ -78,6 +81,6 @@ export default function listen() {
           })}
         </div>
       </div>
-    </main>
+    </motion.main>
   );
 }

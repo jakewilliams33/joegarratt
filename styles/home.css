@@ -38,12 +38,7 @@
 .list-container li {
   font-size: 29px;
   transition: all 0.1s;
-}
-
-li {
-  list-style: none;
   margin-top: -6px;
-  cursor: pointer;
 }
 
 .socials-container {

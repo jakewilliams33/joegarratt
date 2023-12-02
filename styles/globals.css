@@ -3,6 +3,12 @@
   src: url(../ariblk.ttf);
 }
 
+li {
+  list-style: none;
+
+  cursor: pointer;
+}
+
 .link {
   text-decoration: none;
   color: white;

@@ -1,20 +1,34 @@
-import { attributes } from "../../content/watch.md";
-import "../../styles/watch.css";
+import { attributes } from "../content/watch.md";
+import { motion } from "framer-motion";
 
-export default function watch() {
+export default function watch({ variants, transitionSpeed }) {
   let { youtubeurls } = attributes;
 
   return (
     <>
-      <div
+      <motion.div
+        variants={{
+          initial: { opacity: 0 },
+          animate: { opacity: 1 },
+          exit: { opacity: 0 },
+        }}
+        initial="initial"
+        animate="animate"
+        exit="exit"
+        transition={{ duration: 0.5 }}
         className="night-filter"
         style={{
           position: "fixed",
-          width: "100vw",
-          height: "100vh",
+          width: "100%",
+          height: "100%",
         }}
-      ></div>
-      <main
+      ></motion.div>
+      <motion.main
+        variants={variants}
+        initial="initial"
+        animate="animate"
+        exit="exit"
+        transition={{ duration: transitionSpeed }}
         className="watch-page"
         style={{
           position: "absolute",
@@ -45,15 +59,26 @@ export default function watch() {
                     allowFullScreen
                     title="Embedded youtube"
                   />
-                  <div className="checkers-bg-container">
+                  <motion.div
+                    variants={{
+                      initial: { opacity: 0 },
+                      animate: { opacity: 1 },
+                      exit: { opacity: 0 },
+                    }}
+                    initial="initial"
+                    animate="animate"
+                    exit="exit"
+                    transition={{ duration: 1.2, ease: "easeInOut" }}
+                    className="checkers-bg-container"
+                  >
                     <div className="checkers-bg"></div>
-                  </div>
+                  </motion.div>
                 </div>
               </div>
             );
           })}
         </div>
-      </main>
+      </motion.main>
     </>
   );
 }

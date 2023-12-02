@@ -1,10 +1,15 @@
-import { react as HomeContent } from "../../content/bio.md";
-import "../../styles/bio.css";
+import { react as HomeContent } from "../content/bio.md";
+import { motion } from "framer-motion";
 
-export default function () {
+export default function ({ variants, transitionSpeed }) {
   return (
     <>
-      <main
+      <motion.main
+        variants={variants}
+        initial="initial"
+        animate="animate"
+        exit="exit"
+        transition={{ duration: transitionSpeed }}
         className="bio-page"
         style={{
           position: "absolute",
@@ -40,7 +45,7 @@ export default function () {
             </div>
           </div>
         </div>
-      </main>
+      </motion.main>
     </>
   );
 }

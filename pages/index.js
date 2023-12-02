@@ -1,8 +1,6 @@
-"use client";
-
 import Link from "next/link";
-import Head from "next/head";
-import "../styles/home.css";
+import Script from "next/script";
+
 import { attributes } from "../content/menulinks.md";
 import { ImFacebook } from "react-icons/im";
 import {
@@ -12,14 +10,21 @@ import {
   BsInstagram,
   BsYoutube,
 } from "react-icons/bs";
+import Page from "../Components/Page";
+import { motion } from "framer-motion";
 
-export default function Home() {
+export default function Home({ variants, transitionSpeed }) {
   return (
-    <>
-      <Head>
+    <Page>
+      <Script>
         <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
-      </Head>
-      <main
+      </Script>
+      <motion.main
+        variants={variants}
+        initial="initial"
+        animate="animate"
+        exit="exit"
+        transition={{ duration: transitionSpeed }}
         className="home"
         style={{
           position: "absolute",
@@ -91,7 +96,7 @@ export default function Home() {
             </a>
           </ul>
         </div>
-      </main>
-    </>
+      </motion.main>
+    </Page>
   );
 }

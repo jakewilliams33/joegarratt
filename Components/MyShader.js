@@ -1,5 +1,3 @@
-"use client";
-
 import { Shader } from "react-shaders";
 
 const code = `const float cloudscale = 1.1;
@@ -119,8 +117,8 @@ export default function MyShader({ whenLoaded }) {
   return (
     <div
       style={{
-        width: "100vw",
-        height: "102vh",
+        width: "100%",
+        height: "100%",
         position: "fixed",
         zIndex: "-1",
       }}

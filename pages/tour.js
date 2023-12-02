@@ -1,14 +1,17 @@
-"use client";
+import { useScript } from "../Hooks/useScript";
+import { motion } from "framer-motion";
 
-import { useScript } from "../../Hooks/useScript";
-import "../../styles/tour.css";
-
-export default function tour() {
+export default function tour({ variants, transitionSpeed }) {
   useScript("//widget.songkick.com/555021/widget.js");
 
   return (
     <>
-      <main
+      <motion.main
+        variants={variants}
+        initial="initial"
+        animate="animate"
+        exit="exit"
+        transition={{ duration: transitionSpeed }}
         className="tour-page"
         style={{
           position: "absolute",
@@ -60,7 +63,7 @@ export default function tour() {
             </div>
           </div>
         </section>
-      </main>
+      </motion.main>
     </>
   );
 }
