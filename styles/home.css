@@ -79,12 +79,10 @@ li {
 @media (hover: hover) and (pointer: fine) {
   .list-container li:hover {
     font-size: 33px;
-    color: rgb(175, 255, 255);
   }
 
   .socials li:hover {
     font-size: 45px;
-    color: rgb(175, 255, 255);
   }
 }
 

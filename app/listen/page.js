@@ -1,8 +1,24 @@
+"use client";
+
 import "../../styles/listen.css";
 import { attributes } from "../../content/listen.md";
+import { useRef } from "react";
 
 export default function listen() {
   let { releases } = attributes;
+  const text = useRef({});
+  const coverImage = useRef({});
+
+  const handleEnter = (title, image) => {
+    text.current[title].current.className = "text on-hover";
+    coverImage.current[image].current.className = "image on-hover";
+  };
+
+  const handleLeave = (title, image) => {
+    text.current[title].current.className = "text";
+    coverImage.current[image].current.className = "image";
+  };
+
   return (
     <main
       style={{
@@ -21,14 +37,30 @@ export default function listen() {
               <div key={index} className="listen-item">
                 <div className="text-side">
                   <a target="blank" className="link" href={item.url}>
-                    <p>{item.title}</p>
+                    <p
+                      className="text"
+                      ref={(text.current[item.title] ??= { current: null })}
+                      onMouseEnter={() => handleEnter(item.title, item.image)}
+                      onMouseLeave={() => handleLeave(item.title, item.image)}
+                    >
+                      {item.title}
+                    </p>
                   </a>
                 </div>
 
                 <a target="blank" href={item.url}>
-                  <div className="listen-container">
+                  <div
+                    onMouseEnter={() => handleEnter(item.title, item.image)}
+                    onMouseLeave={() => handleLeave(item.title, item.image)}
+                    className="listen-container"
+                  >
                     <img
+                      className="image"
+                      ref={
+                        (coverImage.current[item.image] ??= { current: null })
+                      }
                       style={{
+                        paddingBottom: "2vw",
                         position: "absolute",
                         zIndex: 10000,
                         height: "inherit",
