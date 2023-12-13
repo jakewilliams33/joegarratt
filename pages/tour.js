@@ -2,7 +2,7 @@ import { useScript } from "../Hooks/useScript";
 import { motion } from "framer-motion";
 
 export default function tour({ variants, transitionSpeed }) {
-  useScript("//widget.songkick.com/555021/widget.js");
+  useScript("//widget.songkick.com/10226901/widget.js");
 
   return (
     <>
@@ -38,7 +38,7 @@ export default function tour({ variants, transitionSpeed }) {
                 }}
               >
                 <a
-                  href="https://www.songkick.com/artists/389710"
+                  href="https://www.songkick.com/artists/10226901-joe-garratt"
                   className="songkick-widget"
                   data-theme="light"
                   data-track-button="on"
