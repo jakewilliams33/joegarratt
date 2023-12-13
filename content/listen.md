@@ -5,7 +5,7 @@ releases:
     image: /images/down.jpg
   - title: the best of times
     url: https://ncs.lnk.to/aya
-    image: /images/tbot.jpg
+    image: /images/a0339114160_10.jpg
   - title: uncanny
     url: https://bitbird.lnk.to/uncanny
     image: /images/a1239815676_10.jpg
