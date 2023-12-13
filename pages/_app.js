@@ -10,6 +10,7 @@ import "../styles/bio.css";
 import "../styles/tour.css";
 import "../styles/listen.css";
 import { isMobile } from "react-device-detect";
+import Head from "next/head";
 
 export default function App({ Component, pageProps }) {
   const router = useRouter();
@@ -25,6 +26,10 @@ export default function App({ Component, pageProps }) {
 
   return (
     <>
+      <Head>
+        <link rel="shortcut icon" href="/images/icon.ico" />
+      </Head>
+
       <div className="sky-background"></div>
 
       <MyShader whenLoaded={() => setIsLoaded(true)} />
