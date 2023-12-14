@@ -13,7 +13,7 @@ releases:
     url: https://ncs.lnk.to/aya
     image: /images/img_1655.jpeg
   - title: the best of times
-    url: https://ncs.lnk.to/aya
+    url: https://hypeddit.com/q7cibw
     image: /images/a0339114160_10.jpg
   - title: down
     url: https://hypeddit.com/twwu99
