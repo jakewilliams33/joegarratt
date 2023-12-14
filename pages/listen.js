@@ -1,6 +1,7 @@
 import { attributes } from "../content/listen.md";
 import { useRef } from "react";
 import { motion } from "framer-motion";
+import { isMobile } from "react-device-detect";
 
 export default function listen({ variants, transitionSpeed }) {
   let { releases } = attributes;
@@ -8,13 +9,21 @@ export default function listen({ variants, transitionSpeed }) {
   const coverImage = useRef({});
 
   const handleEnter = (title, image) => {
-    text.current[title].current.className = "text on-hover";
-    coverImage.current[image].current.className = "image on-hover";
+    if (isMobile) {
+      return;
+    } else {
+      text.current[title].current.className = "text on-hover";
+      coverImage.current[image].current.className = "image on-hover";
+    }
   };
 
   const handleLeave = (title, image) => {
-    text.current[title].current.className = "text";
-    coverImage.current[image].current.className = "image";
+    if (isMobile) {
+      return;
+    } else {
+      text.current[title].current.className = "text";
+      coverImage.current[image].current.className = "image";
+    }
   };
 
   return (
