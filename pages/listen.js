@@ -40,14 +40,16 @@ export default function listen({ variants, transitionSpeed }) {
               <div key={index} className="listen-item">
                 <div className="text-side">
                   <a target="blank" className="link" href={item.url}>
-                    <p
-                      className="text"
-                      ref={(text.current[item.title] ??= { current: null })}
-                      onMouseEnter={() => handleEnter(item.title, item.image)}
-                      onMouseLeave={() => handleLeave(item.title, item.image)}
-                    >
-                      {item.title}
-                    </p>
+                    <div style={{ marginRight: "10px" }}>
+                      <p
+                        className="text"
+                        ref={(text.current[item.title] ??= { current: null })}
+                        onMouseEnter={() => handleEnter(item.title, item.image)}
+                        onMouseLeave={() => handleLeave(item.title, item.image)}
+                      >
+                        {item.title}
+                      </p>
+                    </div>
                   </a>
                 </div>
 

@@ -60,31 +60,19 @@
   flex-direction: row;
 }
 
-.listen-page :nth-child(even).listen-item p {
-  margin-right: 2px;
-}
-
-.listen-page :nth-child(odd).listen-item p {
-  margin-left: 2px;
-}
-
 .text-side {
   text-transform: uppercase;
   margin-bottom: 20px;
-  display: table-caption;
-  text-align: right;
   z-index: 982198210981;
 }
 
 .listen-page :nth-child(even).listen-item p {
   display: table-caption;
   text-align: right;
-  margin-right: 10px;
 }
 
 .listen-page :nth-child(odd).listen-item p {
   display: table-caption;
-
   text-align: left;
   margin-left: 10px;
 }
