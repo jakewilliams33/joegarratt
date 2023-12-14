@@ -10,7 +10,7 @@ releases:
     url: https://bitbird.lnk.to/uncanny
     image: /images/a1239815676_10.jpg
   - title: aya
-    url: ncs.lnk.to/aya
+    url: https://ncs.lnk.to/aya
     image: /images/img_1655.jpeg
   - title: the best of times
     url: https://ncs.lnk.to/aya
