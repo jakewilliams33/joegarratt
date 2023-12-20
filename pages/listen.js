@@ -1,5 +1,5 @@
 import { attributes } from "../content/listen.md";
-import { useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 import { motion } from "framer-motion";
 import { isMobile } from "react-device-detect";
 
@@ -7,6 +7,8 @@ export default function listen({ variants, transitionSpeed }) {
   let { releases } = attributes;
   const text = useRef({});
   const coverImage = useRef({});
+
+  const [linkTarget, setLinkTarget] = useState("");
 
   const handleEnter = (title, image) => {
     if (isMobile) {
@@ -25,6 +27,14 @@ export default function listen({ variants, transitionSpeed }) {
       coverImage.current[image].current.className = "image";
     }
   };
+
+  useEffect(() => {
+    if (isMobile) {
+      setLinkTarget("_self");
+    } else {
+      setLinkTarget("blank");
+    }
+  }, []);
 
   return (
     <motion.main
@@ -62,7 +72,7 @@ export default function listen({ variants, transitionSpeed }) {
                   </a>
                 </div>
 
-                <a target="_blank" href={item.url}>
+                <a target={linkTarget} href={item.url}>
                   <div
                     onMouseEnter={() => handleEnter(item.title, item.image)}
                     onMouseLeave={() => handleLeave(item.title, item.image)}
