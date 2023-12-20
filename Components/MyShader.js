@@ -1,4 +1,7 @@
+import { useEffect, useState } from "react";
+import { isMobile } from "react-device-detect";
 import { Shader } from "react-shaders";
+import { useRouter } from "next/router";
 
 const code = `const float cloudscale = 1.1;
 const float speed = 0.008;
@@ -114,15 +117,36 @@ void mainImage( out vec4 fragColor, in vec2 fragCoord ) {
 }`;
 
 export default function MyShader({ whenLoaded }) {
+  const [mobileMode, setMobileMode] = useState(false);
+  const router = useRouter();
+
+  useEffect(() => {
+    if (isMobile) {
+      setMobileMode(true);
+    } else {
+      setMobileMode(false);
+    }
+  }, []);
+
   return (
     <div
       style={{
-        width: "100%",
-        height: "100%",
+        width: mobileMode ? "100%" : "100vw",
+        height: mobileMode ? "100%" : "100vh",
         position: "fixed",
         zIndex: "-1",
       }}
     >
+      <div
+        className={
+          router.pathname === "/watch" ? "night-filter visible" : "night-filter"
+        }
+        style={{
+          position: "fixed",
+          width: isMobile ? "100%" : "100vw",
+          height: isMobile ? "100%" : "100vh",
+        }}
+      ></div>
       <Shader fs={code} onDoneLoadingTextures={whenLoaded} />
     </div>
   );

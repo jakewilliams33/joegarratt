@@ -32,18 +32,7 @@ export default function App({ Component, pageProps }) {
 
       <div className="sky-background"></div>
 
-      <MyShader whenLoaded={() => setIsLoaded(true)} />
-
-      <div
-        className={
-          router.pathname === "/watch" ? "night-filter visible" : "night-filter"
-        }
-        style={{
-          position: "fixed",
-          width: "100%",
-          height: "100%",
-        }}
-      ></div>
+      <MyShader isMobile={isMobile} whenLoaded={() => setIsLoaded(true)} />
 
       <AnimatePresence mode={isMobile ? "wait" : "sync"}>
         <div key={router.pathname}>
