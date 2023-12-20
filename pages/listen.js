@@ -62,7 +62,7 @@ export default function listen({ variants, transitionSpeed }) {
                   </a>
                 </div>
 
-                <a target="blank" href={item.url}>
+                <a target="_blank" href={item.url}>
                   <div
                     onMouseEnter={() => handleEnter(item.title, item.image)}
                     onMouseLeave={() => handleLeave(item.title, item.image)}
