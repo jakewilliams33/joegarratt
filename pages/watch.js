@@ -1,28 +1,17 @@
 import { attributes } from "../content/watch.md";
 import { motion } from "framer-motion";
 
-export default function watch({ variants, transitionSpeed }) {
+export default function watch({ transitionSpeed }) {
   let { youtubeurls } = attributes;
+
+  const variants = {
+    initial: { x: "-114vw", opacity: 0 },
+    animate: { x: "0vw", opacity: 1 },
+    exit: { x: "114vw", opacity: 0 },
+  };
 
   return (
     <>
-      <motion.div
-        variants={{
-          initial: { opacity: 0 },
-          animate: { opacity: 1 },
-          exit: { opacity: 0 },
-        }}
-        initial="initial"
-        animate="animate"
-        exit="exit"
-        transition={{ duration: 0.5 }}
-        className="night-filter"
-        style={{
-          position: "fixed",
-          width: "100%",
-          height: "100%",
-        }}
-      ></motion.div>
       <motion.main
         variants={variants}
         initial="initial"
@@ -63,12 +52,10 @@ export default function watch({ variants, transitionSpeed }) {
                     variants={{
                       initial: { opacity: 0 },
                       animate: { opacity: 1 },
-                      exit: { opacity: 0 },
                     }}
                     initial="initial"
                     animate="animate"
-                    exit="exit"
-                    transition={{ duration: 1.2, ease: "easeInOut" }}
+                    transition={{ duration: 2, ease: "easeInOut" }}
                     className="checkers-bg-container"
                   >
                     <div className="checkers-bg"></div>

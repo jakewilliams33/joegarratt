@@ -17,12 +17,12 @@ export default function App({ Component, pageProps }) {
   const [isLoaded, setIsLoaded] = useState(false);
 
   const variants = {
-    initial: { x: "-102vw", opacity: 1 },
+    initial: { x: "-114vw", opacity: 1 },
     animate: { x: "0vw", opacity: 1 },
-    exit: { x: "102vw", opacity: 1 },
+    exit: { x: "114vw", opacity: 1 },
   };
 
-  const transitionSpeed = isMobile ? 0.2 : 0.5;
+  const transitionSpeed = isMobile ? 0.5 : 0.5;
 
   return (
     <>
@@ -33,6 +33,17 @@ export default function App({ Component, pageProps }) {
       <div className="sky-background"></div>
 
       <MyShader whenLoaded={() => setIsLoaded(true)} />
+
+      <div
+        className={
+          router.pathname === "/watch" ? "night-filter visible" : "night-filter"
+        }
+        style={{
+          position: "fixed",
+          width: "100%",
+          height: "100%",
+        }}
+      ></div>
 
       <AnimatePresence mode={isMobile ? "wait" : "sync"}>
         <div key={router.pathname}>
