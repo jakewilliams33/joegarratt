@@ -1,13 +1,14 @@
 import { attributes } from "../content/watch.md";
 import { motion } from "framer-motion";
+import { isMobile } from "react-device-detect";
 
 export default function watch({ transitionSpeed }) {
   let { youtubeurls } = attributes;
 
   const variants = {
-    initial: { x: "-114vw", opacity: 0 },
+    initial: { x: "0vw", opacity: 0 },
     animate: { x: "0vw", opacity: 1 },
-    exit: { x: "114vw", opacity: 0 },
+    exit: { x: "0vw", opacity: 0 },
   };
 
   return (
@@ -55,7 +56,7 @@ export default function watch({ transitionSpeed }) {
                     }}
                     initial="initial"
                     animate="animate"
-                    transition={{ duration: 2, ease: "easeInOut" }}
+                    transition={{ duration: 1, ease: "easeInOut" }}
                     className="checkers-bg-container"
                   >
                     <div className="checkers-bg"></div>
