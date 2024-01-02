@@ -2,7 +2,7 @@
 releases:
   - title: heartbreak
     url: https://bitbirdofficial.com/releases/heartbreak-feat-joegarratt
-    image: /images/heartbreak-1000.jpg
+    image: /images/heartbreak-2048-1-.png
   - title: me
     url: https://ncs.lnk.to/jg_me
     image: /images/artwork-440x440.jpg
