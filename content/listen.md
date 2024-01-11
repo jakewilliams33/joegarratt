@@ -18,4 +18,7 @@ releases:
   - title: down
     url: https://hypeddit.com/twwu99
     image: /images/down.jpg
+  - title: leave
+    url: https://hypeddit.com/rcickb
+    image: /images/leave22048px.jpeg
 ---
