@@ -37,7 +37,21 @@ export default function listen({ variants, transitionSpeed }) {
   // }, []);
 
   return (
-    <div>
+    <motion.main
+      variants={variants}
+      initial="initial"
+      animate="animate"
+      exit="exit"
+      transition={{ duration: transitionSpeed }}
+      style={{
+        position: "absolute",
+        top: 0,
+        left: 0,
+        width: "100vw",
+        height: "100%",
+      }}
+    >
+      {" "}
       <h3>TEST</h3>
       <h3>TEST</h3>
       <h3>TEST</h3>
@@ -170,6 +184,6 @@ export default function listen({ variants, transitionSpeed }) {
         </div>
       </div>
     </motion.main> */}
-    </div>
+    </motion.main>
   );
 }
