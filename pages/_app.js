@@ -9,7 +9,7 @@ import "../styles/watch.css";
 import "../styles/bio.css";
 import "../styles/tour.css";
 import "../styles/listen.css";
-import { isMobile } from "react-device-detect";
+import {} from "react-device-detect";
 import Head from "next/head";
 
 export default function App({ Component, pageProps }) {
