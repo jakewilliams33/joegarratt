@@ -37,18 +37,7 @@ export default function listen({ variants, transitionSpeed }) {
   // }, []);
 
   return (
-    <motion.main
-      variants={variants}
-      initial="initial"
-      animate="animate"
-      exit="exit"
-      transition={{ duration: transitionSpeed }}
-      style={{
-        width: "100vw",
-        height: "100%",
-      }}
-    >
-      {" "}
+    <div>
       <h3>TEST</h3>
       <h3>TEST</h3>
       <h3>TEST</h3>
@@ -101,20 +90,20 @@ export default function listen({ variants, transitionSpeed }) {
       <h3>TEST</h3>
       <h3>TEST</h3>
       <h3>TEST</h3>
-      <h3>TEST</h3>
-      <h3>TEST</h3>
-      <h3>TEST</h3>
-      <h3>TEST</h3>
-      <h3>TEST</h3>
-      <h3>TEST</h3>
-      <h3>TEST</h3>
-      <h3>TEST</h3>
-      <h3>TEST</h3>
-      <h3>TEST</h3>
-      <h3>TEST</h3>
-      <h3>TEST</h3>
-      <h3>TEST</h3>
-      <h3>TEST</h3>
+      <h3>Bottom</h3>
+      <h3>Bottom</h3>
+      <h3>Bottom</h3>
+      <h3>Bottom</h3>
+      <h3>Bottom</h3>
+      <h3>Bottom</h3>
+      <h3>Bottom</h3>
+      <h3>Bottom</h3>
+      <h3>Bottom</h3>
+      <h3>Bottom</h3>
+      <h3>Bottom</h3>
+      <h3>Bottom</h3>
+      <h3>Bottom</h3>
+      <h3>Bottom</h3>
       {/* <motion.main
       variants={variants}
       initial="initial"
@@ -181,6 +170,6 @@ export default function listen({ variants, transitionSpeed }) {
         </div>
       </div>
     </motion.main> */}
-    </motion.main>
+    </div>
   );
 }
