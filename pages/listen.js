@@ -37,7 +37,12 @@ export default function listen({ variants, transitionSpeed }) {
   // }, []);
 
   return (
-    <div
+    <motion.main
+      variants={variants}
+      initial="initial"
+      animate="animate"
+      exit="exit"
+      transition={{ duration: transitionSpeed }}
       style={{
         position: "absolute",
         top: 0,
@@ -177,6 +182,6 @@ export default function listen({ variants, transitionSpeed }) {
         </div>
       </div>
     </motion.main> */}
-    </div>
+    </motion.main>
   );
 }
