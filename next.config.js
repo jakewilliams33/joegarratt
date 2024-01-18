@@ -1,4 +1,7 @@
 module.exports = {
+  images: {
+    unoptimized: true,
+  },
   output: "export",
   webpack: (cfg) => {
     cfg.module.rules.push({

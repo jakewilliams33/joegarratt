@@ -5,39 +5,106 @@ import { isMobile } from "react-device-detect";
 
 export default function listen({ variants, transitionSpeed }) {
   let { releases } = attributes;
-  const text = useRef({});
-  const coverImage = useRef({});
+  // const text = useRef({});
+  // const coverImage = useRef({});
 
-  const [linkTarget, setLinkTarget] = useState("");
+  // const [linkTarget, setLinkTarget] = useState("");
 
-  const handleEnter = (title, image) => {
-    if (isMobile) {
-      return;
-    } else {
-      text.current[title].current.className = "text on-hover";
-      coverImage.current[image].current.className = "image on-hover";
-    }
-  };
+  // const handleEnter = (title, image) => {
+  //   if (isMobile) {
+  //     return;
+  //   } else {
+  //     text.current[title].current.className = "text on-hover";
+  //     coverImage.current[image].current.className = "image on-hover";
+  //   }
+  // };
 
-  const handleLeave = (title, image) => {
-    if (isMobile) {
-      return;
-    } else {
-      text.current[title].current.className = "text";
-      coverImage.current[image].current.className = "image";
-    }
-  };
+  // const handleLeave = (title, image) => {
+  //   if (isMobile) {
+  //     return;
+  //   } else {
+  //     text.current[title].current.className = "text";
+  //     coverImage.current[image].current.className = "image";
+  //   }
+  // };
 
-  useEffect(() => {
-    if (isMobile) {
-      setLinkTarget("_self");
-    } else {
-      setLinkTarget("blank");
-    }
-  }, []);
+  // useEffect(() => {
+  //   if (isMobile) {
+  //     setLinkTarget("_self");
+  //   } else {
+  //     setLinkTarget("blank");
+  //   }
+  // }, []);
 
   return (
-    <motion.main
+    <div>
+      <h3>TEST</h3>
+      <h3>TEST</h3>
+      <h3>TEST</h3>
+      <h3>TEST</h3>
+      <h3>TEST</h3>
+      <h3>TEST</h3>
+      <h3>TEST</h3>
+      <h3>TEST</h3>
+      <h3>TEST</h3>
+      <h3>TEST</h3>
+      <h3>TEST</h3>
+      <h3>TEST</h3>
+      <h3>TEST</h3>
+      <h3>TEST</h3>
+      <h3>TEST</h3>
+      <h3>TEST</h3>
+      <h3>TEST</h3>
+      <h3>TEST</h3>
+      <h3>TEST</h3>
+      <h3>TEST</h3>
+      <h3>TEST</h3>
+      <h3>TEST</h3>
+      <h3>TEST</h3>
+      <h3>TEST</h3>
+      <h3>TEST</h3>
+      <h3>TEST</h3>
+      <h3>TEST</h3>
+      <h3>TEST</h3>
+      <h3>TEST</h3>
+      <h3>TEST</h3>
+      <h3>TEST</h3>
+      <h3>TEST</h3>
+      <h3>TEST</h3>
+      <h3>TEST</h3>
+      <h3>TEST</h3>
+      <h3>TEST</h3>
+      <h3>TEST</h3>
+      <h3>TEST</h3>
+      <h3>TEST</h3>
+      <h3>TEST</h3>
+      <h3>TEST</h3>
+      <h3>TEST</h3>
+      <h3>TEST</h3>
+      <h3>TEST</h3>
+      <h3>TEST</h3>
+      <h3>TEST</h3>
+      <h3>TEST</h3>
+      <h3>TEST</h3>
+      <h3>TEST</h3>
+      <h3>TEST</h3>
+      <h3>TEST</h3>
+      <h3>TEST</h3>
+      <h3>TEST</h3>
+      <h3>TEST</h3>
+      <h3>TEST</h3>
+      <h3>TEST</h3>
+      <h3>TEST</h3>
+      <h3>TEST</h3>
+      <h3>TEST</h3>
+      <h3>TEST</h3>
+      <h3>TEST</h3>
+      <h3>TEST</h3>
+      <h3>TEST</h3>
+      <h3>TEST</h3>
+      <h3>TEST</h3>
+      <h3>TEST</h3>
+      {/* <motion.main
       variants={variants}
       initial="initial"
       animate="animate"
@@ -102,6 +169,7 @@ export default function listen({ variants, transitionSpeed }) {
           })}
         </div>
       </div>
-    </motion.main>
+    </motion.main> */}
+    </div>
   );
 }
