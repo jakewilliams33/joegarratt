@@ -43,13 +43,6 @@ export default function listen({ variants, transitionSpeed }) {
       animate="animate"
       exit="exit"
       transition={{ duration: transitionSpeed }}
-      // style={{
-      //   position: "absolute",
-      //   top: 0,
-      //   left: 0,
-      //   width: "100vw",
-      //   height: "100%",
-      // }}
     >
       <h1 className="page-header">LISTEN</h1>
       <div className="listen-page">
