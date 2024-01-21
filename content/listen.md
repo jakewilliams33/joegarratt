@@ -27,4 +27,7 @@ releases:
   - title: All Of This
     url: https://launchpad.ffm.to/allofthis
     image: /images/all-of-this-art-1-.jpg
+  - title: Images Don't Lie
+    url: https://launchpad.ffm.to/imagesdontlie
+    image: /images/images-don-t-lie-art-new-low-.jpg
 ---
