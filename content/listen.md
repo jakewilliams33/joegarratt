@@ -2,7 +2,7 @@
 releases:
   - title: leave
     url: https://hypeddit.com/m7jkma
-    image: /images/leave22048px.jpeg
+    image: /images/leave.jpg
   - title: heartbreak
     url: https://bitbirdofficial.com/releases/heartbreak-feat-joegarratt
     image: https://geo-media.beatport.com/image_size/1400x1400/485ecfe2-f312-4ced-ba31-aa050808cc21.jpg
