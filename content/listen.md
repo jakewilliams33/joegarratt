@@ -11,13 +11,13 @@ releases:
     image: /images/me.jpg
   - title: uncanny
     url: https://bitbird.lnk.to/uncanny
-    image: /images/a1239815676_10.jpg
+    image: /images/uncanny.jpg
   - title: aya
     url: https://ncs.lnk.to/aya
-    image: /images/img_1655.jpeg
+    image: /images/aya.jpg
   - title: the best of times
     url: https://hypeddit.com/q7cibw
-    image: /images/a0339114160_10.jpg
+    image: /images/thebestoftimes.jpg
   - title: down
     url: https://hypeddit.com/twwu99
     image: /images/down.jpg
