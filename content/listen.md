@@ -33,4 +33,7 @@ releases:
   - title: Toxic
     url: https://enter.lnk.to/toxic
     image: /images/toxic.jpg
+  - title: Indoor Soundtrack EP
+    url: https://frtyfve.lnk.to/indoorsoundtrack
+    image: /images/indoor.jpg
 ---
