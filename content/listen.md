@@ -32,5 +32,5 @@ releases:
     image: /images/images.jpg
   - title: Toxic
     url: https://enter.lnk.to/toxic
-    image: /images/joegarratt-toxic-cover-art-.jpg
+    image: /images/toxic.jpg
 ---
