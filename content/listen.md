@@ -30,4 +30,7 @@ releases:
   - title: Images Don't Lie
     url: https://launchpad.ffm.to/imagesdontlie
     image: /images/images-don-t-lie-art-new-low-.jpg
+  - title: Toxic
+    url: https://enter.lnk.to/toxic
+    image: /images/joegarratt-toxic-cover-art-.jpg
 ---
