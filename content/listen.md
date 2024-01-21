@@ -36,4 +36,7 @@ releases:
   - title: Indoor Soundtrack EP
     url: https://frtyfve.lnk.to/indoorsoundtrack
     image: /images/indoor.jpg
+  - title: Dreams Don't Last (So Long)
+    url: https://hypeddit.com/2s1114
+    image: /images/dreams.jpg
 ---
