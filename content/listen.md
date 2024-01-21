@@ -21,4 +21,7 @@ releases:
   - title: down
     url: https://hypeddit.com/twwu99
     image: /images/down.jpg
+  - title: Less Kind
+    url: https://launchpad.ffm.to/lesskind
+    image: /images/ab67616d0000b273747fb1040dd1f35edc1775b1.jpeg
 ---
