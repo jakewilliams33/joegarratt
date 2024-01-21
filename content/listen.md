@@ -24,4 +24,7 @@ releases:
   - title: Less Kind
     url: https://launchpad.ffm.to/lesskind
     image: /images/ab67616d0000b273747fb1040dd1f35edc1775b1.jpeg
+  - title: All Of This
+    url: https://launchpad.ffm.to/allofthis
+    image: /images/all-of-this-art-1-.jpg
 ---
