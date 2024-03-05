@@ -1,5 +1,8 @@
 ---
 releases:
+  - title: bank pains
+    url: https://hypeddit.com/dx8x6e
+    image: /images/img_3067.jpeg
   - title: leave
     url: https://hypeddit.com/m7jkma
     image: /images/leave.jpg
