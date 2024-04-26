@@ -1,5 +1,8 @@
 ---
 releases:
+  - url: https://hypeddit.com/1lyp7l
+    title: no idea
+    image: /images/a3987381849_10.jpg
   - title: bank pains
     url: https://hypeddit.com/dx8x6e
     image: /images/img_3067.jpeg
