@@ -1,5 +1,8 @@
 ---
 releases:
+  - url: https://hypeddit.com/2mbns5
+    title: lo
+    image: /images/fd_lo_apr_1200.jpg
   - url: https://hypeddit.com/1lyp7l
     title: no idea
     image: /images/a3987381849_10.jpg
