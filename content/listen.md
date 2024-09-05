@@ -1,5 +1,8 @@
 ---
 releases:
+  - title: her
+    url: https://hypeddit.com/g6o2yq
+    image: /images/fd_her_f_4_2000.jpg
   - url: https://hypeddit.com/2mbns5
     title: lo
     image: /images/fd_lo_apr_1200.jpg
