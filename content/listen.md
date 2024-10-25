@@ -1,36 +1,8 @@
 ---
 releases:
-  - title: her
-    spotify: https://open.spotify.com/track/5dxTsukximLHz4EI7u0PTl?si=2381e8e929d14a02
-    apple_music: https://apple_music_link_for_her
-    youtube: https://youtube_link_for_her
-    amazon_music: https://amazon_music_link_for_her
-    deezer: https://amazon_music_link
-    image: /images/fd_her_f_4_2000.jpg
-    displayOnMusicPage: yes
-  - title: lo
-    spotify: https://spotify_link_for_lo
-    apple_music: https://apple_music_link_for_lo
-    youtube: https://youtube_link_for_lo
-    amazon_music: https://amazon_music_link_for_lo
-    deezer: https://amazon_music_link
-    image: /images/fd_lo_apr_1200.jpg
-    displayOnMusicPage: yes
-  - title: no idea
-    spotify: https://spotify_link_for_no_idea
-    apple_music: https://apple_music_link_for_no_idea
-    youtube: https://youtube_link_for_no_idea
-    deezer: https://amazon_music_link
-    amazon_music: https://amazon_music_link_for_no_idea
-    image: /images/a3987381849_10.jpg
-    displayOnMusicPage: yes
-  - title: bank pains
-    spotify: https://spotify_link_for_bank_pains
-    apple_music: https://apple_music_link_for_bank_pains
-    youtube: https://youtube_link_for_bank_pains
-    amazon_music: https://amazon_music_link_for_bank_pains
-    deezer: https://amazon_music_link
-    image: /images/img_3067.jpeg
+  - image: /images/directions600.jpg
+    title: directions
+    presave: https://hypeddit.com/71vrcj
     displayOnMusicPage: yes
   - title: leave
     spotify: https://spotify_link_for_leave
