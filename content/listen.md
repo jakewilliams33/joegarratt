@@ -7,14 +7,17 @@ releases:
     deezer: https://hypeddit.com/71vrcj
     spotify: https://hypeddit.com/71vrcj
     apple: https://hypeddit.com/71vrcj
-  - title: leave
-    spotify: https://open.spotify.com/track/3wOiVhGzPpbYpnc5jvwZ7D
-    apple_music: https://apple_music_link_for_leave
-    youtube: ""
+  - apple_music: https://apple_music_link_for_leave
+    deezer: https://deezer.page.link/yT444TRZ6dPATaQm9
+    youtube: https://www.youtube.com/watch?v=N4hm9XZL4qM
+    amazon: https://music.amazon.co.uk/albums/B0CPYVDXFX
     amazon_music: https://amazon_music_link_for_leave
-    deezer: ""
-    image: /images/leave.jpg
     displayOnMusicPage: yes
+    bandcamp: https://joegarratt.bandcamp.com/track/leave
+    title: leave
+    spotify: https://open.spotify.com/track/3wOiVhGzPpbYpnc5jvwZ7D
+    apple: https://music.apple.com/us/album/leave/1720790815
+    image: /images/leave.jpg
   - title: heartbreak
     spotify: https://spotify_link_for_heartbreak
     apple_music: https://apple_music_link_for_heartbreak
