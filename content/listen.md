@@ -4,7 +4,7 @@ releases:
     title: directions
     presave: https://hypeddit.com/71vrcj
     displayOnMusicPage: yes
-    deezer: https://hypeddit.com/71vrcj
+    deezer: ""
     spotify: https://hypeddit.com/71vrcj
     apple: https://hypeddit.com/71vrcj
   - apple_music: https://apple_music_link_for_leave
