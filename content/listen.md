@@ -58,22 +58,28 @@ releases:
     spotify: https://open.spotify.com/track/63IK5WSU4PJRlPWkNYIKZP
     apple: https://music.apple.com/us/album/aya/1668376564
     image: /images/aya.jpg
-  - title: the best of times
-    spotify: https://spotify_link_for_the_best_of_times
-    apple_music: https://apple_music_link_for_the_best_of_times
-    youtube: https://youtube_link_for_the_best_of_times
+  - apple_music: https://apple_music_link_for_the_best_of_times
+    deezer: https://deezer.page.link/pfJfsKbxVB6t8iVL8
+    youtube: ""
+    amazon: https://music.amazon.co.uk/albums/B0BSB9KWHG
     amazon_music: https://amazon_music_link_for_the_best_of_times
-    deezer: https://amazon_music_link
+    displayOnMusicPage: yes
+    bandcamp: https://joegarratt.bandcamp.com/track/the-best-of-times
+    title: the best of times
+    spotify: https://open.spotify.com/track/49brBv7yBNJHtt649qNt51
+    apple: https://music.apple.com/us/album/the-best-of-times/1665415958
     image: /images/thebestoftimes.jpg
-    displayOnMusicPage: yes
-  - title: down
-    spotify: https://spotify_link_for_down
-    apple_music: https://apple_music_link_for_down
-    youtube: https://youtube_link_for_down
+  - apple_music: https://apple_music_link_for_down
+    deezer: https://deezer.page.link/4CY6QTKyf5c4mG7p9
+    youtube: ""
+    amazon: https://music.amazon.co.uk/albums/B0BPS9FCP7
     amazon_music: https://amazon_music_link_for_down
-    deezer: https://amazon_music_link
-    image: /images/down.jpg
     displayOnMusicPage: yes
+    bandcamp: https://joegarratt.bandcamp.com/track/down
+    title: down
+    spotify: https://open.spotify.com/track/0dNF16MKfcvoSevYwaQYoD
+    apple: https://music.apple.com/us/album/down/1659342576
+    image: /images/down.jpg
   - title: Less Kind
     spotify: https://spotify_link_for_less_kind
     apple_music: https://apple_music_link_for_less_kind
@@ -81,7 +87,7 @@ releases:
     amazon_music: https://amazon_music_link_for_less_kind
     deezer: https://amazon_music_link
     image: /images/lesskind.jpg
-    displayOnMusicPage: yes
+    displayOnMusicPage: no
   - title: All Of This
     spotify: https://spotify_link_for_all_of_this
     apple_music: https://apple_music_link_for_all_of_this
@@ -89,7 +95,7 @@ releases:
     amazon_music: https://amazon_music_link_for_all_of_this
     deezer: https://amazon_music_link
     image: /images/allofthis.jpg
-    displayOnMusicPage: yes
+    displayOnMusicPage: no
   - title: Images Don't Lie
     spotify: https://spotify_link_for_images_dont_lie
     apple_music: https://apple_music_link_for_images_dont_lie
@@ -97,7 +103,7 @@ releases:
     amazon_music: https://amazon_music_link_for_images_dont_lie
     deezer: https://amazon_music_link
     image: /images/images.jpg
-    displayOnMusicPage: yes
+    displayOnMusicPage: no
   - title: Toxic
     spotify: https://spotify_link_for_toxic
     apple_music: https://apple_music_link_for_toxic
@@ -105,7 +111,7 @@ releases:
     amazon_music: https://amazon_music_link_for_toxic
     deezer: https://amazon_music_link
     image: /images/toxic.jpg
-    displayOnMusicPage: yes
+    displayOnMusicPage: no
   - title: Indoor Soundtrack EP
     spotify: https://spotify_link_for_indoor_soundtrack
     apple_music: https://apple_music_link_for_indoor_soundtrack
@@ -113,7 +119,7 @@ releases:
     amazon_music: https://amazon_music_link_for_indoor_soundtrack
     deezer: https://amazon_music_link
     image: /images/indoor.jpg
-    displayOnMusicPage: yes
+    displayOnMusicPage: no
   - title: Dreams Don't Last (So Long)
     spotify: https://spotify_link_for_dreams_dont_last
     apple_music: https://apple_music_link_for_dreams_dont_last
@@ -121,5 +127,5 @@ releases:
     amazon_music: https://amazon_music_link_for_dreams_dont_last
     deezer: https://amazon_music_link
     image: /images/dreams.jpg
-    displayOnMusicPage: yes
+    displayOnMusicPage: no
 ---
