@@ -136,8 +136,4 @@ releases:
     deezer: https://amazon_music_link
     image: /images/dreams.jpg
     displayOnMusicPage: yes
-  - title: test release
-    image: /images/aya.jpg
-    displayOnMusicPage: yes
-    presave: https://www.google.co.uk/
 ---
