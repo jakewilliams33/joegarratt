@@ -18,14 +18,16 @@ releases:
     spotify: https://open.spotify.com/track/3wOiVhGzPpbYpnc5jvwZ7D
     apple: https://music.apple.com/us/album/leave/1720790815
     image: /images/leave.jpg
-  - title: heartbreak
-    spotify: https://spotify_link_for_heartbreak
-    apple_music: https://apple_music_link_for_heartbreak
-    youtube: https://youtube_link_for_heartbreak
+  - apple_music: https://apple_music_link_for_heartbreak
+    deezer: https://deezer.page.link/GGNy7BfgQHq2YprW6
+    youtube: https://www.youtube.com/watch?v=pFMhogY7WuM
+    amazon: https://music.amazon.co.uk/albums/B0CB66ZT9H
     amazon_music: https://amazon_music_link_for_heartbreak
-    deezer: https://amazon_music_link
-    image: /images/heartbreak.jpg
     displayOnMusicPage: yes
+    title: heartbreak
+    spotify: https://open.spotify.com/track/7IsAYozq9Cm2v1hU6vutm1
+    apple: https://music.apple.com/us/album/heartbreak-feat-joegarratt/1696089306
+    image: /images/heartbreak.jpg
   - title: me
     spotify: https://spotify_link_for_me
     apple_music: https://apple_music_link_for_me
