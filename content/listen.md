@@ -4,12 +4,15 @@ releases:
     title: directions
     presave: https://hypeddit.com/71vrcj
     displayOnMusicPage: yes
+    deezer: https://hypeddit.com/71vrcj
+    spotify: https://hypeddit.com/71vrcj
+    apple: https://hypeddit.com/71vrcj
   - title: leave
-    spotify: https://spotify_link_for_leave
+    spotify: https://open.spotify.com/track/3wOiVhGzPpbYpnc5jvwZ7D
     apple_music: https://apple_music_link_for_leave
-    youtube: https://youtube_link_for_leave
+    youtube: ""
     amazon_music: https://amazon_music_link_for_leave
-    deezer: https://amazon_music_link
+    deezer: ""
     image: /images/leave.jpg
     displayOnMusicPage: yes
   - title: heartbreak
