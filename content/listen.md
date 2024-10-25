@@ -8,7 +8,7 @@ releases:
     spotify: https://hypeddit.com/71vrcj
     apple: https://hypeddit.com/71vrcj
   - apple_music: https://apple_music_link_for_leave
-    deezer: https://deezer.page.link/yT444TRZ6dPATaQm9
+    deezer: https://www.deezer.com/en/album/524738092
     youtube: https://www.youtube.com/watch?v=N4hm9XZL4qM
     amazon: https://music.amazon.co.uk/albums/B0CPYVDXFX
     amazon_music: https://amazon_music_link_for_leave
@@ -19,7 +19,7 @@ releases:
     apple: https://music.apple.com/us/album/leave/1720790815
     image: /images/leave.jpg
   - apple_music: https://apple_music_link_for_heartbreak
-    deezer: https://deezer.page.link/GGNy7BfgQHq2YprW6
+    deezer: https://www.deezer.com/en/album/461046025
     youtube: https://www.youtube.com/watch?v=pFMhogY7WuM
     amazon: https://music.amazon.co.uk/albums/B0CB66ZT9H
     amazon_music: https://amazon_music_link_for_heartbreak
@@ -28,30 +28,36 @@ releases:
     spotify: https://open.spotify.com/track/7IsAYozq9Cm2v1hU6vutm1
     apple: https://music.apple.com/us/album/heartbreak-feat-joegarratt/1696089306
     image: /images/heartbreak.jpg
-  - title: me
-    spotify: https://spotify_link_for_me
-    apple_music: https://apple_music_link_for_me
-    youtube: https://youtube_link_for_me
+  - apple_music: https://apple_music_link_for_me
+    deezer: https://www.deezer.com/en/album/437009127
+    youtube: https://www.youtube.com/watch?v=mqi6ues2jh4
+    amazon: https://music.amazon.co.uk/albums/B0C488S8WS
     amazon_music: https://amazon_music_link_for_me
-    deezer: https://amazon_music_link
+    displayOnMusicPage: yes
+    title: me
+    spotify: https://open.spotify.com/track/52EybjwbR5hO0mnq2CGoKe
+    apple: https://music.apple.com/us/album/me/1686122804
     image: /images/me.jpg
-    displayOnMusicPage: yes
-  - title: uncanny
-    spotify: https://spotify_link_for_uncanny
-    apple_music: https://apple_music_link_for_uncanny
-    youtube: https://youtube_link_for_uncanny
+  - apple_music: https://apple_music_link_for_uncanny
+    deezer: https://www.deezer.com/en/album/419664857
+    youtube: https://www.youtube.com/watch?v=aOo71rt1dGE
+    amazon: https://music.amazon.co.uk/albums/B0BZ1BKL1D
     amazon_music: https://amazon_music_link_for_uncanny
-    deezer: https://amazon_music_link
+    displayOnMusicPage: yes
+    title: uncanny
+    spotify: https://open.spotify.com/track/6pEpHNgYxS6SQQMFZgdu15
+    apple: https://music.apple.com/us/album/uncanny/1678473248
     image: /images/uncanny.jpg
-    displayOnMusicPage: yes
-  - title: aya
-    spotify: https://spotify_link_for_aya
-    apple_music: https://apple_music_link_for_aya
-    youtube: https://youtube_link_for_aya
+  - apple_music: https://apple_music_link_for_aya
+    deezer: https://www.deezer.com/en/album/401243247
+    youtube: https://www.youtube.com/watch?v=p82FE3ByO0I
+    amazon: https://music.amazon.co.uk/albums/B0BT85K2T7
     amazon_music: https://amazon_music_link_for_aya
-    deezer: https://amazon_music_link
-    image: /images/aya.jpg
     displayOnMusicPage: yes
+    title: aya
+    spotify: https://open.spotify.com/track/63IK5WSU4PJRlPWkNYIKZP
+    apple: https://music.apple.com/us/album/aya/1668376564
+    image: /images/aya.jpg
   - title: the best of times
     spotify: https://spotify_link_for_the_best_of_times
     apple_music: https://apple_music_link_for_the_best_of_times
