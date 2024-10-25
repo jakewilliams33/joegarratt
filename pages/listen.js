@@ -1,14 +1,14 @@
 import { attributes } from "../content/listen.md";
-import { useEffect, useRef, useState } from "react";
+import { useRef } from "react";
 import { motion } from "framer-motion";
 import { isMobile } from "react-device-detect";
+import { convertToId } from "../Hooks/convertToId";
+import Link from "next/link";
 
 export default function listen({ variants, transitionSpeed }) {
   let { releases } = attributes;
   const text = useRef({});
   const coverImage = useRef({});
-
-  const [linkTarget, setLinkTarget] = useState("");
 
   const handleEnter = (title, image) => {
     if (isMobile) {
@@ -28,14 +28,6 @@ export default function listen({ variants, transitionSpeed }) {
     }
   };
 
-  useEffect(() => {
-    if (isMobile) {
-      setLinkTarget("_self");
-    } else {
-      setLinkTarget("blank");
-    }
-  }, []);
-
   return (
     <motion.main
       variants={variants}
@@ -43,55 +35,75 @@ export default function listen({ variants, transitionSpeed }) {
       animate="animate"
       exit="exit"
       transition={{ duration: transitionSpeed }}
+      className="bio-page"
+      style={{
+        position: "absolute",
+        height: "100%",
+        width: "100vw",
+        textAlign: "center",
+      }}
     >
       <h1 className="page-header">LISTEN</h1>
       <div className="listen-page">
         <div className="releases">
           {releases.map((item, index) => {
-            return (
-              <div key={index} className="listen-item">
-                <div className="text-side">
-                  <a target="blank" className="link" href={item.url}>
-                    <div style={{ marginRight: "10px" }}>
-                      <p
-                        className="text"
-                        ref={(text.current[item.title] ??= { current: null })}
-                        onMouseEnter={() => handleEnter(item.title, item.image)}
-                        onMouseLeave={() => handleLeave(item.title, item.image)}
-                      >
-                        {item.title}
-                      </p>
-                    </div>
-                  </a>
-                </div>
-
-                <a target={linkTarget} href={item.url}>
-                  <div
-                    onMouseEnter={() => handleEnter(item.title, item.image)}
-                    onMouseLeave={() => handleLeave(item.title, item.image)}
-                    className="listen-container"
-                  >
-                    <img
-                      className="image"
-                      ref={
-                        (coverImage.current[item.image] ??= { current: null })
-                      }
-                      style={{
-                        paddingBottom: "2vw",
-                        position: "absolute",
-                        zIndex: 10000,
-                        height: "inherit",
-                        width: "inherit",
-                      }}
-                      src={item.image}
-                    ></img>
-                    <div className="checkers-bg-container">
-                      <div className="checkers-bg"></div>
-                    </div>
+            if (item.displayOnMusicPage === "yes") {
+              return (
+                <div key={index} className="listen-item">
+                  <div className="text-side">
+                    <Link
+                      className="link"
+                      href={`/landing/${convertToId(item.title)}`}
+                    >
+                      <div style={{ marginRight: "10px" }}>
+                        <p
+                          className="text"
+                          ref={(text.current[item.title] ??= { current: null })}
+                          onMouseEnter={() =>
+                            handleEnter(item.title, item.image)
+                          }
+                          onMouseLeave={() =>
+                            handleLeave(item.title, item.image)
+                          }
+                        >
+                          {item.title}
+                        </p>
+                      </div>
+                    </Link>
                   </div>
-                </a>
-              </div>
-            );
+
+                  <Link
+                    className="link"
+                    href={`/landing/${convertToId(item.title)}`}
+                  >
+                    {" "}
+                    <div
+                      onMouseEnter={() => handleEnter(item.title, item.image)}
+                      onMouseLeave={() => handleLeave(item.title, item.image)}
+                      className="listen-container"
+                    >
+                      <img
+                        className="image"
+                        ref={
+                          (coverImage.current[item.image] ??= { current: null })
+                        }
+                        style={{
+                          paddingBottom: "2vw",
+                          position: "absolute",
+                          zIndex: 10000,
+                          height: "inherit",
+                          width: "inherit",
+                        }}
+                        src={item.image}
+                      ></img>
+                      <div className="checkers-bg-container">
+                        <div className="checkers-bg"></div>
+                      </div>
+                    </div>
+                  </Link>
+                </div>
+              );
+            }
           })}
         </div>
       </div>

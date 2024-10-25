@@ -1,3 +1,4 @@
+import ColorRect from "../Components/ColorRect";
 import { react as HomeContent } from "../content/bio.md";
 import { motion } from "framer-motion";
 
@@ -23,8 +24,7 @@ export default function ({ variants, transitionSpeed }) {
           <div className="checkers-bg-container">
             <div className="checkers-bg"></div>
           </div>
-
-          <div className="color-rect">
+          <ColorRect customScroll={false}>
             <div
               style={{
                 width: "112%",
@@ -43,7 +43,7 @@ export default function ({ variants, transitionSpeed }) {
                 <HomeContent />
               </div>
             </div>
-          </div>
+          </ColorRect>
         </div>
       </motion.main>
     </>

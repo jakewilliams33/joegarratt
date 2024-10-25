@@ -30,6 +30,7 @@ ul {
   font-size: 40px;
   color: white;
   font-family: arial black;
+  padding-top: 9px;
 }
 
 main {
@@ -156,6 +157,18 @@ body {
   height: 100vh;
   position: fixed;
   z-index: -1000000;
+}
+
+.streaming-links img {
+  width: 40%;
+  max-width: 190px;
+}
+
+.streaming-links {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  height: 100%;
 }
 
 @keyframes slide2 {

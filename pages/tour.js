@@ -1,3 +1,4 @@
+import ColorRect from "../Components/ColorRect";
 import { useScript } from "../Hooks/useScript";
 import { motion } from "framer-motion";
 
@@ -28,7 +29,7 @@ export default function tour({ variants, transitionSpeed }) {
               <div className="checkers-bg"></div>
             </div>
 
-            <div className="color-rect custom-scroll">
+            <ColorRect customScroll={true}>
               <div
                 style={{
                   zIndex: 100201922102,
@@ -60,7 +61,7 @@ export default function tour({ variants, transitionSpeed }) {
                   {<br></br>}
                 </a>
               </div>
-            </div>
+            </ColorRect>
           </div>
         </section>
       </motion.main>

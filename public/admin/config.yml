@@ -32,14 +32,53 @@ collections:
             name: "releases"
             widget: "list"
             fields:
-              - {
-                  label: "Title",
-                  name: "title",
-                  widget: "string",
-                  pattern: ["^.{1,63}$", "Must be between 1 and 63 characters"],
-                }
-              - { label: "URL", name: "url", widget: "string" }
+              - label: "Title"
+                name: "title"
+                widget: "string"
+                pattern: ["^.{1,63}$", "Must be between 1 and 63 characters"]
+                required: true
               - { label: "Image", name: "image", widget: "image" }
+              - label: "Spotify"
+                name: "spotify"
+                widget: "string"
+                required: false
+              - label: "Apple"
+                name: "apple"
+                widget: "string"
+                required: false
+              - label: "Tidal"
+                name: "tidal"
+                widget: "string"
+                required: false
+              - label: "Amazon"
+                name: "amazon"
+                widget: "string"
+                required: false
+              - label: "Bandcamp"
+                name: "bandcamp"
+                widget: "string"
+                required: false
+              - label: "Youtube"
+                name: "youtube"
+                widget: "string"
+                required: false
+              - label: "Deezer"
+                name: "deezer"
+                widget: "string"
+                required: false
+              - label: "Image"
+                name: "image"
+                widget: "image"
+                required: true
+              - label: "Display on Music page?"
+                name: "displayOnMusicPage"
+                widget: "select"
+                required: true
+                options: ["yes", "no"]
+              - label: "Presave"
+                name: presave
+                widget: string
+                required: false
       - label: "Menu Links"
         name: "menulinks"
         file: "content/menulinks.md"

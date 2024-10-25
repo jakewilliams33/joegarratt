@@ -12,6 +12,7 @@ import {
 } from "react-icons/bs";
 import Page from "../Components/Page";
 import { motion } from "framer-motion";
+import ColorRect from "../Components/ColorRect";
 
 export default function Home({ variants, transitionSpeed }) {
   return (
@@ -37,7 +38,7 @@ export default function Home({ variants, transitionSpeed }) {
           <div className="checkers-bg-container" style={{ minHeight: "340px" }}>
             <div className="checkers-bg"></div>
           </div>
-          <div className="color-rect" style={{ minHeight: "340px" }}>
+          <ColorRect customScroll={false} styles={{ minHeight: "340px" }}>
             <h3 className="jg-logo">JOEGARRATT</h3>
 
             <div className="list-container">
@@ -60,7 +61,7 @@ export default function Home({ variants, transitionSpeed }) {
                 </Link>
               </ul>
             </div>
-          </div>
+          </ColorRect>
         </div>
         <div className="socials-container">
           <ul className="socials">

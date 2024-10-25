@@ -37,11 +37,13 @@ export default function App({ Component, pageProps }) {
       <AnimatePresence mode={isMobile ? "wait" : "sync"}>
         <div key={router.pathname}>
           <HomeButton />
-          <Component
-            {...pageProps}
-            variants={variants}
-            transitionSpeed={transitionSpeed}
-          />
+          <motion.div>
+            <Component
+              {...pageProps}
+              variants={variants}
+              transitionSpeed={transitionSpeed}
+            />
+          </motion.div>
         </div>
       </AnimatePresence>
     </>
