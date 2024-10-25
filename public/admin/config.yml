@@ -37,7 +37,12 @@ collections:
                 widget: "string"
                 pattern: ["^.{1,63}$", "Must be between 1 and 63 characters"]
                 required: true
-              - { label: "Image", name: "image", widget: "image" }
+              - {
+                  label: "Image",
+                  name: "image",
+                  widget: "image",
+                  required: true,
+                }
               - label: "Spotify"
                 name: "spotify"
                 widget: "string"
@@ -66,10 +71,6 @@ collections:
                 name: "deezer"
                 widget: "string"
                 required: false
-              - label: "Image"
-                name: "image"
-                widget: "image"
-                required: true
               - label: "Display on Music page?"
                 name: "displayOnMusicPage"
                 widget: "select"
