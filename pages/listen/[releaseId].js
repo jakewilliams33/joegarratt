@@ -3,9 +3,9 @@
 import { useRouter } from "next/router";
 import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
-import { attributes } from "../content/listen.md";
-import { convertToId } from "../Hooks/convertToId";
-import ColorRect from "../Components/ColorRect";
+import { attributes } from "../../content/listen.md";
+import { convertToId } from "../../Hooks/convertToId";
+import ColorRect from "../../Components/ColorRect";
 
 export default function LandingPage({ variants, transitionSpeed }) {
   const router = useRouter();
