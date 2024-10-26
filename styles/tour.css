@@ -6,7 +6,7 @@
 }
 
 .tour-page .tiles-container {
-  margin-top: 60px;
+  margin-top: 50px;
   height: 80vh;
   width: 50vw;
   transition: width 0.2s;
@@ -29,12 +29,12 @@
 
 @media screen and (max-width: 768px) {
   .tour-page .tiles-container {
-    width: 80vw;
+    width: 72vw;
   }
 }
 
 @media screen and (max-width: 600px) {
   .tour-page .tiles-container {
-    height: 74vh;
+    height: 76vh;
   }
 }

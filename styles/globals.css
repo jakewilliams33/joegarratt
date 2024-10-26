@@ -162,7 +162,7 @@ body {
 .streaming-links img {
   width: 25vw;
   min-width: 100px;
-  max-width: 150px;
+  max-width: 140px;
 }
 
 .streaming-links img:hover {
@@ -201,46 +201,5 @@ body {
 
   100% {
     transform: translate(0%);
-  }
-}
-
-@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap");
-
-.landing-page {
-  font-family: Archivo Black !important;
-  text-transform: uppercase;
-}
-
-.landing-page .tiles-container {
-  margin-top: 60px;
-  height: 80vh;
-  width: 50vw;
-  transition: width 0.2s;
-  max-width: 600px;
-}
-
-.custom-scroll {
-  height: inherit;
-  overflow: scroll;
-}
-
-.custom-scroll::-webkit-scrollbar {
-  height: 0px;
-  width: 8px;
-}
-
-.custom-scroll::-webkit-scrollbar-thumb {
-  background-color: #ffffff43;
-}
-
-@media screen and (max-width: 768px) {
-  .landing-page .tiles-container {
-    width: 70vw;
-  }
-}
-
-@media screen and (max-width: 600px) {
-  .landing-page .tiles-container {
-    height: 80vh;
   }
 }

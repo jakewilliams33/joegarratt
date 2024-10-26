@@ -29,7 +29,7 @@ export default function LandingPage({ variants, transitionSpeed }) {
 
   // Display loading state if current is not set yet
   if (!current) {
-    return <p>Loading...</p>;
+    return <></>;
   }
 
   return (
@@ -39,7 +39,7 @@ export default function LandingPage({ variants, transitionSpeed }) {
       animate="animate"
       exit="exit"
       transition={{ duration: transitionSpeed }}
-      className="landing-page"
+      className="tour-page"
       style={{
         position: "absolute",
         height: "100%",
