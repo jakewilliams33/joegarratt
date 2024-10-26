@@ -7,6 +7,42 @@ import { attributes } from "../../content/listen.md";
 import { convertToId } from "../../Hooks/convertToId";
 import ColorRect from "../../Components/ColorRect";
 
+export async function getStaticPaths() {
+  const { releases } = attributes;
+
+  const paths = releases.map((release) => ({
+    params: { releaseId: convertToId(release.title) }, // Generate paths based on release titles
+  }));
+
+  return {
+    paths,
+    fallback: false, // Set to false since we want a 404 for any unknown paths
+  };
+}
+
+export async function getStaticProps({ params }) {
+  const { releases } = attributes;
+  const releasesLookup = releases.reduce((acc, item) => {
+    const id = convertToId(item.title);
+    acc[id] = item;
+    return acc;
+  }, {});
+
+  const current = releasesLookup[params.releaseId] || null;
+
+  if (!current) {
+    return {
+      notFound: true, // Return a 404 page if the release is not found
+    };
+  }
+
+  return {
+    props: {
+      current, // Pass the current release to the page
+    },
+  };
+}
+
 export default function LandingPage({ variants, transitionSpeed }) {
   const router = useRouter();
   const { releases } = attributes; // Use destructuring here directly
