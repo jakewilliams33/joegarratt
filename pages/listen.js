@@ -51,10 +51,7 @@ export default function listen({ variants, transitionSpeed }) {
               return (
                 <div key={index} className="listen-item">
                   <div className="text-side">
-                    <Link
-                      className="link"
-                      href={`/landing/${convertToId(item.title)}`}
-                    >
+                    <Link className="link" href={`/${convertToId(item.title)}`}>
                       <div style={{ marginRight: "10px" }}>
                         <p
                           className="text"
@@ -72,10 +69,7 @@ export default function listen({ variants, transitionSpeed }) {
                     </Link>
                   </div>
 
-                  <Link
-                    className="link"
-                    href={`/landing/${convertToId(item.title)}`}
-                  >
+                  <Link className="link" href={`/${convertToId(item.title)}`}>
                     {" "}
                     <div
                       onMouseEnter={() => handleEnter(item.title, item.image)}

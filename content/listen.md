@@ -5,8 +5,8 @@ releases:
     presave: https://hypeddit.com/71vrcj
     displayOnMusicPage: yes
     deezer: ""
-    spotify: https://hypeddit.com/71vrcj
-    apple: https://hypeddit.com/71vrcj
+    spotify: ""
+    apple: ""
   - apple_music: https://apple_music_link_for_leave
     deezer: https://www.deezer.com/en/album/524738092
     youtube: https://www.youtube.com/watch?v=N4hm9XZL4qM

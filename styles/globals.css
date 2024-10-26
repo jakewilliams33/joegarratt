@@ -88,7 +88,7 @@ body {
   height: 100%;
   position: absolute;
   z-index: 10;
-  top: calc(-20px - 0.4vw);
+  top: calc(-10px - 0.4vw);
   margin-left: calc(22px + 2vw);
   background: linear-gradient(
     #ffaa41,
@@ -160,8 +160,15 @@ body {
 }
 
 .streaming-links img {
-  width: 40%;
-  max-width: 190px;
+  width: 25vw;
+  min-width: 100px;
+  max-width: 150px;
+}
+
+.streaming-links img:hover {
+  width: 26vw;
+  min-width: 100px;
+  max-width: 150px;
 }
 
 .streaming-links {
@@ -169,6 +176,18 @@ body {
   justify-content: space-between;
   flex-direction: column;
   height: 100%;
+}
+
+.streaming-links li {
+  margin-top: 10px;
+}
+
+.presave-link {
+  font-size: 120%;
+  transition: all 0.11s;
+}
+.presave-link:hover {
+  font-size: 130%;
 }
 
 @keyframes slide2 {
@@ -182,5 +201,46 @@ body {
 
   100% {
     transform: translate(0%);
+  }
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap");
+
+.landing-page {
+  font-family: Archivo Black !important;
+  text-transform: uppercase;
+}
+
+.landing-page .tiles-container {
+  margin-top: 60px;
+  height: 80vh;
+  width: 50vw;
+  transition: width 0.2s;
+  max-width: 600px;
+}
+
+.custom-scroll {
+  height: inherit;
+  overflow: scroll;
+}
+
+.custom-scroll::-webkit-scrollbar {
+  height: 0px;
+  width: 8px;
+}
+
+.custom-scroll::-webkit-scrollbar-thumb {
+  background-color: #ffffff43;
+}
+
+@media screen and (max-width: 768px) {
+  .landing-page .tiles-container {
+    width: 70vw;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .landing-page .tiles-container {
+    height: 80vh;
   }
 }

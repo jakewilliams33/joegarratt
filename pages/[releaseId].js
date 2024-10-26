@@ -3,9 +3,9 @@
 import { useRouter } from "next/router";
 import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
-import { attributes } from "../../content/listen.md";
-import { convertToId } from "../../Hooks/convertToId";
-import ColorRect from "../../Components/ColorRect";
+import { attributes } from "../content/listen.md";
+import { convertToId } from "../Hooks/convertToId";
+import ColorRect from "../Components/ColorRect";
 
 export default function LandingPage({ variants, transitionSpeed }) {
   const router = useRouter();
@@ -39,7 +39,7 @@ export default function LandingPage({ variants, transitionSpeed }) {
       animate="animate"
       exit="exit"
       transition={{ duration: transitionSpeed }}
-      className="tour-page"
+      className="landing-page"
       style={{
         position: "absolute",
         height: "100%",
@@ -48,21 +48,22 @@ export default function LandingPage({ variants, transitionSpeed }) {
       }}
     >
       <section style={{ color: "white" }}>
-        <h1 className="page-header">{current.title}</h1>
-
-        <div style={{ maxWidth: "420px" }} className="tiles-container">
+        <div
+          style={{ maxWidth: "420px", marginTop: 20 }}
+          className="tiles-container"
+        >
           <div className="checkers-bg-container">
             <div className="checkers-bg"></div>
           </div>
 
-          <ColorRect customScroll={true} styles={{ maxWidth: "420px" }}>
+          <ColorRect styles={{ maxWidth: "420px" }}>
             <div
               style={{
                 zIndex: 100201922102,
                 color: "white",
                 maxWidth: "90%",
                 margin: "auto",
-                height: "100%",
+                minHeight: "100%",
                 display: "flex",
                 flexDirection: "column",
               }}
@@ -77,7 +78,7 @@ export default function LandingPage({ variants, transitionSpeed }) {
                 }}
               ></img>
               <ul
-                style={{ margin: "20px 0 20px 0" }}
+                style={{ margin: "20px 0 40px 0", minHeight: "100%", flex: 1 }}
                 className="streaming-links"
               >
                 {current.apple_music && (
@@ -146,14 +147,41 @@ export default function LandingPage({ variants, transitionSpeed }) {
                     </a>
                   </li>
                 )}
+                {current.bandcamp && (
+                  <li>
+                    <a target="_blank" href={current.bandcamp}>
+                      <img
+                        data-test="music-service-item-image"
+                        src="/images/streaming/bandcamp.svg"
+                        alt="bandcamp"
+                      />
+                    </a>
+                  </li>
+                )}
                 {current.presave && (
                   <li>
                     <a
-                      style={{ color: "white", textDecoration: "none" }}
+                      style={{
+                        color: "white",
+                        textDecoration: "none",
+                        textAlign: "center",
+                      }}
                       target="_blank"
                       href={current.presave}
                     >
-                      <h1>PRE-SAVE</h1>
+                      <p
+                        className="presave-link"
+                        style={{
+                          border: "1px solid rgba(255, 255, 255, 0.1)",
+                          borderRadius: "10px",
+                          display: "table",
+                          margin: "10px auto 0 auto",
+                          padding: "0 5px 0 5px",
+                          backgroundColor: "rgba(255, 255, 255, 0.28)",
+                        }}
+                      >
+                        PRE-SAVE HERE
+                      </p>
                     </a>
                   </li>
                 )}
