@@ -39,7 +39,7 @@ export default function tour({ variants, transitionSpeed }) {
                 }}
               >
                 <a
-                  href="https://www.songkick.com/artists/10226901-joe-garratt"
+                  href="https://www.songkick.com/artists/10339176-joegarratt"
                   className="songkick-widget"
                   data-theme="light"
                   data-track-button="on"
