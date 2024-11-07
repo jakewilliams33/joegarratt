@@ -1,13 +1,13 @@
 ---
 releases:
-  - deezer: https://www.deezer.com/en/track/3058866201
-    youtube: https://www.youtube.com/watch?v=HFy-Cvlzx80
-    amazon: https://amazon.com/music/player/tracks/B0DKJS47ZX
+  - deezer: www.deezer.com/en/track/3058866201
+    youtube: www.youtube.com/watch?v=HFy-Cvlzx80
+    amazon: amazon.com/music/player/tracks/B0DKJS47ZX
     displayOnMusicPage: yes
-    bandcamp: https://joegarratt.bandcamp.com/track/directions
+    bandcamp: joegarratt.bandcamp.com/track/directions
     title: directions
-    spotify: https://open.spotify.com/track/2DX0P5WrzGx4LWuW66X0UH
-    apple: https://music.apple.com/us/album/directions/1775687236
+    spotify: open.spotify.com/track/2DX0P5WrzGx4LWuW66X0UH
+    apple: music.apple.com/us/album/directions/1775687236
     image: /images/directions600.jpg
   - apple_music: https://apple_music_link_for_leave
     deezer: https://www.deezer.com/en/album/524738092
