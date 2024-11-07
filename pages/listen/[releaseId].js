@@ -117,7 +117,7 @@ export default function LandingPage({ variants, transitionSpeed }) {
                 style={{ margin: "20px 0 40px 0", minHeight: "100%", flex: 1 }}
                 className="streaming-links"
               >
-                {current.apple_music && (
+                {current.spotify && (
                   <li>
                     <a target="_blank" href={current.spotify}>
                       <img
@@ -128,7 +128,7 @@ export default function LandingPage({ variants, transitionSpeed }) {
                     </a>
                   </li>
                 )}
-                {current.apple_music && (
+                {current.apple && (
                   <li>
                     <a target="_blank" href={current.apple}>
                       <img
@@ -161,7 +161,7 @@ export default function LandingPage({ variants, transitionSpeed }) {
                     </a>
                   </li>
                 )}
-                {current.amazon_music && (
+                {current.amazon && (
                   <li>
                     <a target="_blank" href={current.amazon}>
                       <img
