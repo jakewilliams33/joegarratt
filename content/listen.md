@@ -8,7 +8,7 @@ releases:
     bandcamp: https://joegarratt.bandcamp.com/track/directions
     title: directions
     spotify: https://open.spotify.com/track/2DX0P5WrzGx4LWuW66X0UH
-    apple: https://music.apple.com/us/album/directions/1775687236?i=1775687237
+    apple: https://music.apple.com/us/album/directions/1775687236
     image: /images/directions600.jpg
   - apple_music: https://apple_music_link_for_leave
     deezer: https://www.deezer.com/en/album/524738092
