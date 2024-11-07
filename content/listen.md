@@ -1,7 +1,6 @@
 ---
 releases:
-  - presave: ""
-    deezer: https://www.deezer.com/en/track/3058866201
+  - deezer: https://www.deezer.com/en/track/3058866201
     youtube: https://www.youtube.com/watch?v=HFy-Cvlzx80
     amazon: https://amazon.com/music/player/tracks/B0DKJS47ZX
     displayOnMusicPage: yes
