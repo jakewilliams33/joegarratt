@@ -1,5 +1,9 @@
 ---
 releases:
+  - title: trying
+    image: /images/img_7521.jpeg
+    presave: https://hypeddit.com/ov1or6
+    displayOnMusicPage: yes
   - deezer: https://www.deezer.com/en/track/3058866201
     youtube: https://www.youtube.com/watch?v=HFy-Cvlzx80
     amazon: https://amazon.com/music/player/tracks/B0DKJS47ZX
