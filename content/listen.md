@@ -1,9 +1,16 @@
 ---
 releases:
-  - title: trying
-    image: /images/img_7521.jpeg
-    presave: https://hypeddit.com/ov1or6
+  - presave: ""
+    deezer: https://deezer.page.link/jD4saFCNYP6spGs76
+    youtube: https://www.youtube.com/watch?v=rqVrFk8XACw
+    amazon: https://music.amazon.com/tracks/B0DSCG3BKR
     displayOnMusicPage: yes
+    bandcamp: https://joegarratt.bandcamp.com/track/trying
+    title: trying
+    tidal: https://tidal.com/browse/track/409597954
+    spotify: https://open.spotify.com/track/6SeI60BXv1T9svyGKUf4IO?si=efd6c85bba654c67
+    apple: https://music.apple.com/us/album/trying-single/1789389679
+    image: /images/img_7521.jpeg
   - deezer: https://www.deezer.com/en/track/3058866201
     youtube: https://www.youtube.com/watch?v=HFy-Cvlzx80
     amazon: https://amazon.com/music/player/tracks/B0DKJS47ZX
