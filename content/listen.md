@@ -1,5 +1,14 @@
 ---
 releases:
+  - deezer: https://link.deezer.com/s/311qscpbWojYDnoTu75h2
+    youtube: https://www.youtube.com/watch?v=KH1AoVbi_I0
+    amazon: https://music.amazon.co.uk/albums/B0FNV9134W
+    displayOnMusicPage: yes
+    title: irl
+    tidal: https://tidal.com/browse/track/456573760
+    spotify: https://open.spotify.com/track/7ksHySXQO1EMxmecq9k0SF
+    apple: https://music.apple.com/us/song/irl/1835788426
+    image: /images/irl.jpg
   - presave: ""
     deezer: https://deezer.page.link/jD4saFCNYP6spGs76
     youtube: https://www.youtube.com/watch?v=rqVrFk8XACw
