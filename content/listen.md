@@ -1,5 +1,14 @@
 ---
 releases:
+  - deezer: https://link.deezer.com/s/31jaUieXA1wp7SBUynhCM
+    youtube: https://www.youtube.com/watch?v=zS1O7LLNtx4
+    amazon: https://music.amazon.co.uk/albums/B0FP7LKVMR
+    displayOnMusicPage: yes
+    title: irl (demo)
+    tidal: https://tidal.com/track/457237380/u
+    spotify: https://open.spotify.com/track/2LUoCMMwdN6RNCr4TiRUMJ
+    apple: https://music.apple.com/us/song/irl-demo/1836526389
+    image: /images/irl-demo.jpg
   - deezer: https://link.deezer.com/s/311qscpbWojYDnoTu75h2
     youtube: https://www.youtube.com/watch?v=KH1AoVbi_I0
     amazon: https://music.amazon.co.uk/albums/B0FNV9134W
