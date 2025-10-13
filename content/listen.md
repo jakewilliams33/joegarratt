@@ -5,7 +5,7 @@ releases:
     amazon: https://music.amazon.co.uk/albums/B0FP7LKVMR
     displayOnMusicPage: yes
     title: irl (demo)
-    tidal: https://tidal.com/track/457237380/u
+    tidal: https://tidal.com/album/457237379/track/457237380
     spotify: https://open.spotify.com/track/2LUoCMMwdN6RNCr4TiRUMJ
     apple: https://music.apple.com/us/song/irl-demo/1836526389
     image: /images/irl-demo.jpg
