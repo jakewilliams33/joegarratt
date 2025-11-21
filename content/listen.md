@@ -1,5 +1,14 @@
 ---
 releases:
+  - deezer: https://link.deezer.com/s/31Ftnqboulam72vcsMSgo
+    youtube: https://www.youtube.com/watch?v=FE3xMII9MOk
+    amazon: https://music.amazon.com/tracks/B0FP7XY3R8
+    displayOnMusicPage: yes
+    title: u c
+    tidal: https://tidal.com/track/457237403/u
+    spotify: https://open.spotify.com/track/3vJIraXhuDVs0JVjUiWJCG
+    apple: https://music.apple.com/us/song/u-c/1836526495
+    image: /images/u_c_800px.jpg
   - deezer: https://link.deezer.com/s/31jaUieXA1wp7SBUynhCM
     youtube: https://www.youtube.com/watch?v=zS1O7LLNtx4
     amazon: https://music.amazon.co.uk/albums/B0FP7LKVMR
