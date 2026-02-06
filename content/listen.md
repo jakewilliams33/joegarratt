@@ -168,8 +168,14 @@ releases:
     deezer: https://amazon_music_link
     image: /images/dreams.jpg
     displayOnMusicPage: no
-  - image: /images/excuses800px.jpg
-    title: excuses
-    spotify: https://open.spotify.com/track/4qTsnxdQwJHU1Tv8t5dENz
+  - deezer: https://link.deezer.com/s/32ndlwWkAZd2pNrisD4h1
+    youtube: https://www.youtube.com/watch?v=uLwiI7f14Dw
+    amazon: https://music.amazon.co.uk/albums/B0GJ12KBWJ
     displayOnMusicPage: yes
+    bandcamp: https://joegarratt.bandcamp.com/track/excuses
+    title: excuses
+    tidal: https://tidal.com/track/491498442/u
+    spotify: https://open.spotify.com/track/4qTsnxdQwJHU1Tv8t5dENz
+    apple: https://music.apple.com/us/song/excuses/1870956185
+    image: /images/excuses800px.jpg
 ---
