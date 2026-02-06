@@ -168,4 +168,8 @@ releases:
     deezer: https://amazon_music_link
     image: /images/dreams.jpg
     displayOnMusicPage: no
+  - image: /images/excuses800px.jpg
+    title: excuses
+    spotify: https://open.spotify.com/track/4qTsnxdQwJHU1Tv8t5dENz
+    displayOnMusicPage: yes
 ---
