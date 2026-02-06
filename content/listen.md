@@ -3,7 +3,7 @@ releases:
   - deezer: https://link.deezer.com/s/32ndlwWkAZd2pNrisD4h1
     youtube: https://www.youtube.com/watch?v=uLwiI7f14Dw
     amazon: https://music.amazon.co.uk/albums/B0GJ12KBWJ
-    displayOnMusicPage: no
+    displayOnMusicPage: yes
     bandcamp: https://joegarratt.bandcamp.com/track/excuses
     title: excuses
     tidal: https://tidal.com/track/491498442/u
