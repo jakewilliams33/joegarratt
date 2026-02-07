@@ -9,7 +9,7 @@ releases:
     tidal: https://tidal.com/track/491498442/u
     spotify: https://open.spotify.com/track/4qTsnxdQwJHU1Tv8t5dENz
     apple: https://music.apple.com/us/song/excuses/1870956185
-    image: public/images/excuses800px.jpg
+    image: /images/excuses800px.jpg
   - deezer: https://link.deezer.com/s/31Ftnqboulam72vcsMSgo
     youtube: https://www.youtube.com/watch?v=FE3xMII9MOk
     amazon: https://music.amazon.com/tracks/B0FP7XY3R8
