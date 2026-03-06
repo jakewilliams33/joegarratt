@@ -1,5 +1,14 @@
 ---
 releases:
+  - deezer: https://link.deezer.com/s/32DfWNHp8YTksQp94fXXd
+    youtube: https://www.youtube.com/watch?v=Z65s8EJosWc
+    amazon: https://music.amazon.co.uk/tracks/B0GN9N7V66
+    displayOnMusicPage: yes
+    title: inside
+    tidal: https://tidal.com/track/498816872/u
+    spotify: https://open.spotify.com/track/4YSo2jLx0Fifo9dNSCgYr5
+    apple: https://music.apple.com/us/song/inside/1877681237
+    image: /images/inside800px.jpg
   - deezer: https://link.deezer.com/s/32ndlwWkAZd2pNrisD4h1
     youtube: https://www.youtube.com/watch?v=uLwiI7f14Dw
     amazon: https://music.amazon.co.uk/albums/B0GJ12KBWJ
