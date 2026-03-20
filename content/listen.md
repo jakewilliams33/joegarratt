@@ -1,10 +1,20 @@
 ---
 releases:
+  - deezer: https://link.deezer.com/s/32Lcx4O4VRTxYSbv71VZA
+    youtube: https://www.youtube.com/watch?v=FzB12NOwVsg
+    amazon: https://music.amazon.co.uk/tracks/B0GS3QTY2S
+    displayOnMusicPage: yes
+    bandcamp: https://joegarratt.bandcamp.com
+    title: "  "
+    tidal: https://tidal.com/track/505968055/u
+    spotify: https://open.spotify.com/track/6dG8tQPvdZIrKab1MfxAWb
+    apple: https://music.apple.com/us/song/excuses-drinks-on-me-why-so-low-remix/1884152197
+    image: /images/excusesdrinks.png
   - deezer: https://link.deezer.com/s/32DfWNHp8YTksQp94fXXd
     youtube: https://www.youtube.com/watch?v=Z65s8EJosWc
     amazon: https://music.amazon.co.uk/tracks/B0GN9N7V66
     displayOnMusicPage: yes
-    title: inside
+    title: "  "
     tidal: https://tidal.com/track/498816872/u
     spotify: https://open.spotify.com/track/4YSo2jLx0Fifo9dNSCgYr5
     apple: https://music.apple.com/us/song/inside/1877681237
@@ -14,7 +24,7 @@ releases:
     amazon: https://music.amazon.co.uk/albums/B0GJ12KBWJ
     displayOnMusicPage: yes
     bandcamp: https://joegarratt.bandcamp.com/track/excuses
-    title: excuses
+    title: "  "
     tidal: https://tidal.com/track/491498442/u
     spotify: https://open.spotify.com/track/4qTsnxdQwJHU1Tv8t5dENz
     apple: https://music.apple.com/us/song/excuses/1870956185
@@ -23,7 +33,7 @@ releases:
     youtube: https://www.youtube.com/watch?v=FE3xMII9MOk
     amazon: https://music.amazon.com/tracks/B0FP7XY3R8
     displayOnMusicPage: yes
-    title: u c
+    title: "  "
     tidal: https://tidal.com/track/457237403/u
     spotify: https://open.spotify.com/track/3vJIraXhuDVs0JVjUiWJCG
     apple: https://music.apple.com/us/song/u-c/1836526495
@@ -32,7 +42,7 @@ releases:
     youtube: https://www.youtube.com/watch?v=zS1O7LLNtx4
     amazon: https://music.amazon.co.uk/albums/B0FP7LKVMR
     displayOnMusicPage: yes
-    title: irl (demo)
+    title: "  "
     tidal: https://tidal.com/album/457237379/track/457237380
     spotify: https://open.spotify.com/track/2LUoCMMwdN6RNCr4TiRUMJ
     apple: https://music.apple.com/us/song/irl-demo/1836526389
@@ -41,7 +51,7 @@ releases:
     youtube: https://www.youtube.com/watch?v=KH1AoVbi_I0
     amazon: https://music.amazon.co.uk/albums/B0FNV9134W
     displayOnMusicPage: yes
-    title: irl
+    title: "  "
     tidal: https://tidal.com/browse/track/456573760
     spotify: https://open.spotify.com/track/7ksHySXQO1EMxmecq9k0SF
     apple: https://music.apple.com/us/song/irl/1835788426
@@ -52,7 +62,7 @@ releases:
     amazon: https://music.amazon.com/tracks/B0DSCG3BKR
     displayOnMusicPage: yes
     bandcamp: https://joegarratt.bandcamp.com/track/trying
-    title: trying
+    title: "  "
     tidal: https://tidal.com/browse/track/409597954
     spotify: https://open.spotify.com/track/6SeI60BXv1T9svyGKUf4IO?si=efd6c85bba654c67
     apple: https://music.apple.com/us/album/trying-single/1789389679
@@ -62,7 +72,7 @@ releases:
     amazon: https://amazon.com/music/player/tracks/B0DKJS47ZX
     displayOnMusicPage: yes
     bandcamp: https://joegarratt.bandcamp.com/track/directions
-    title: directions
+    title: "  "
     spotify: https://open.spotify.com/track/2DX0P5WrzGx4LWuW66X0UH
     apple: https://music.apple.com/us/album/directions/1775687236
     image: /images/directions600.jpg
@@ -73,7 +83,7 @@ releases:
     amazon_music: https://amazon_music_link_for_leave
     displayOnMusicPage: yes
     bandcamp: https://joegarratt.bandcamp.com/track/leave
-    title: leave
+    title: "  "
     spotify: https://open.spotify.com/track/3wOiVhGzPpbYpnc5jvwZ7D
     apple: https://music.apple.com/us/album/leave/1720790815
     image: /images/leave.jpg
@@ -83,7 +93,7 @@ releases:
     amazon: https://music.amazon.co.uk/albums/B0CB66ZT9H
     amazon_music: https://amazon_music_link_for_heartbreak
     displayOnMusicPage: yes
-    title: heartbreak
+    title: "  "
     spotify: https://open.spotify.com/track/7IsAYozq9Cm2v1hU6vutm1
     apple: https://music.apple.com/us/album/heartbreak-feat-joegarratt/1696089306
     image: /images/heartbreak.jpg
@@ -93,7 +103,7 @@ releases:
     amazon: https://music.amazon.co.uk/albums/B0C488S8WS
     amazon_music: https://amazon_music_link_for_me
     displayOnMusicPage: yes
-    title: me
+    title: "  "
     spotify: https://open.spotify.com/track/52EybjwbR5hO0mnq2CGoKe
     apple: https://music.apple.com/us/album/me/1686122804
     image: /images/me.jpg
@@ -103,7 +113,7 @@ releases:
     amazon: https://music.amazon.co.uk/albums/B0BZ1BKL1D
     amazon_music: https://amazon_music_link_for_uncanny
     displayOnMusicPage: yes
-    title: uncanny
+    title: "  "
     spotify: https://open.spotify.com/track/6pEpHNgYxS6SQQMFZgdu15
     apple: https://music.apple.com/us/album/uncanny/1678473248
     image: /images/uncanny.jpg
@@ -113,7 +123,7 @@ releases:
     amazon: https://music.amazon.co.uk/albums/B0BT85K2T7
     amazon_music: https://amazon_music_link_for_aya
     displayOnMusicPage: yes
-    title: aya
+    title: "  "
     spotify: https://open.spotify.com/track/63IK5WSU4PJRlPWkNYIKZP
     apple: https://music.apple.com/us/album/aya/1668376564
     image: /images/aya.jpg
@@ -124,7 +134,7 @@ releases:
     amazon_music: https://amazon_music_link_for_the_best_of_times
     displayOnMusicPage: yes
     bandcamp: https://joegarratt.bandcamp.com/track/the-best-of-times
-    title: the best of times
+    title: "  "
     spotify: https://open.spotify.com/track/49brBv7yBNJHtt649qNt51
     apple: https://music.apple.com/us/album/the-best-of-times/1665415958
     image: /images/thebestoftimes.jpg
@@ -135,11 +145,11 @@ releases:
     amazon_music: https://amazon_music_link_for_down
     displayOnMusicPage: yes
     bandcamp: https://joegarratt.bandcamp.com/track/down
-    title: down
+    title: "  "
     spotify: https://open.spotify.com/track/0dNF16MKfcvoSevYwaQYoD
     apple: https://music.apple.com/us/album/down/1659342576
     image: /images/down.jpg
-  - title: Less Kind
+  - title: "  "
     spotify: https://spotify_link_for_less_kind
     apple_music: https://apple_music_link_for_less_kind
     youtube: https://youtube_link_for_less_kind
@@ -147,7 +157,7 @@ releases:
     deezer: https://amazon_music_link
     image: /images/lesskind.jpg
     displayOnMusicPage: no
-  - title: All Of This
+  - title: "  "
     spotify: https://spotify_link_for_all_of_this
     apple_music: https://apple_music_link_for_all_of_this
     youtube: https://youtube_link_for_all_of_this
@@ -155,7 +165,7 @@ releases:
     deezer: https://amazon_music_link
     image: /images/allofthis.jpg
     displayOnMusicPage: no
-  - title: Images Don't Lie
+  - title: "  "
     spotify: https://spotify_link_for_images_dont_lie
     apple_music: https://apple_music_link_for_images_dont_lie
     youtube: https://youtube_link_for_images_dont_lie
@@ -163,7 +173,7 @@ releases:
     deezer: https://amazon_music_link
     image: /images/images.jpg
     displayOnMusicPage: no
-  - title: Toxic
+  - title: "  "
     spotify: https://spotify_link_for_toxic
     apple_music: https://apple_music_link_for_toxic
     youtube: https://youtube_link_for_toxic
@@ -171,7 +181,7 @@ releases:
     deezer: https://amazon_music_link
     image: /images/toxic.jpg
     displayOnMusicPage: no
-  - title: Indoor Soundtrack EP
+  - title: "  "
     spotify: https://spotify_link_for_indoor_soundtrack
     apple_music: https://apple_music_link_for_indoor_soundtrack
     youtube: https://youtube_link_for_indoor_soundtrack
@@ -179,7 +189,7 @@ releases:
     deezer: https://amazon_music_link
     image: /images/indoor.jpg
     displayOnMusicPage: no
-  - title: Dreams Don't Last (So Long)
+  - title: "  "
     spotify: https://spotify_link_for_dreams_dont_last
     apple_music: https://apple_music_link_for_dreams_dont_last
     youtube: https://youtube_link_for_dreams_dont_last
