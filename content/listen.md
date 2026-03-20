@@ -5,7 +5,7 @@ releases:
     amazon: https://music.amazon.co.uk/tracks/B0GS3QTY2S
     displayOnMusicPage: yes
     bandcamp: https://joegarratt.bandcamp.com
-    title: "  excuses (Drinks On Me & Why So Low Remix)"
+    title: excuses (Drinks On Me & Why So Low Remix)
     tidal: https://tidal.com/track/505968055/u
     spotify: https://open.spotify.com/track/6dG8tQPvdZIrKab1MfxAWb
     apple: https://music.apple.com/us/song/excuses-drinks-on-me-why-so-low-remix/1884152197
@@ -14,7 +14,7 @@ releases:
     youtube: https://www.youtube.com/watch?v=Z65s8EJosWc
     amazon: https://music.amazon.co.uk/tracks/B0GN9N7V66
     displayOnMusicPage: yes
-    title: "  inside"
+    title: inside
     tidal: https://tidal.com/track/498816872/u
     spotify: https://open.spotify.com/track/4YSo2jLx0Fifo9dNSCgYr5
     apple: https://music.apple.com/us/song/inside/1877681237
@@ -33,7 +33,7 @@ releases:
     youtube: https://www.youtube.com/watch?v=FE3xMII9MOk
     amazon: https://music.amazon.com/tracks/B0FP7XY3R8
     displayOnMusicPage: yes
-    title: "  u c"
+    title: u c
     tidal: https://tidal.com/track/457237403/u
     spotify: https://open.spotify.com/track/3vJIraXhuDVs0JVjUiWJCG
     apple: https://music.apple.com/us/song/u-c/1836526495
@@ -42,7 +42,7 @@ releases:
     youtube: https://www.youtube.com/watch?v=zS1O7LLNtx4
     amazon: https://music.amazon.co.uk/albums/B0FP7LKVMR
     displayOnMusicPage: yes
-    title: "  irl (demo)"
+    title: irl (demo)
     tidal: https://tidal.com/album/457237379/track/457237380
     spotify: https://open.spotify.com/track/2LUoCMMwdN6RNCr4TiRUMJ
     apple: https://music.apple.com/us/song/irl-demo/1836526389
@@ -62,7 +62,7 @@ releases:
     amazon: https://music.amazon.com/tracks/B0DSCG3BKR
     displayOnMusicPage: yes
     bandcamp: https://joegarratt.bandcamp.com/track/trying
-    title: "  trying"
+    title: trying
     tidal: https://tidal.com/browse/track/409597954
     spotify: https://open.spotify.com/track/6SeI60BXv1T9svyGKUf4IO?si=efd6c85bba654c67
     apple: https://music.apple.com/us/album/trying-single/1789389679
@@ -72,7 +72,7 @@ releases:
     amazon: https://amazon.com/music/player/tracks/B0DKJS47ZX
     displayOnMusicPage: yes
     bandcamp: https://joegarratt.bandcamp.com/track/directions
-    title: "  directions"
+    title: directions
     spotify: https://open.spotify.com/track/2DX0P5WrzGx4LWuW66X0UH
     apple: https://music.apple.com/us/album/directions/1775687236
     image: /images/directions600.jpg
@@ -83,7 +83,7 @@ releases:
     amazon_music: https://amazon_music_link_for_leave
     displayOnMusicPage: yes
     bandcamp: https://joegarratt.bandcamp.com/track/leave
-    title: "  leave"
+    title: leave
     spotify: https://open.spotify.com/track/3wOiVhGzPpbYpnc5jvwZ7D
     apple: https://music.apple.com/us/album/leave/1720790815
     image: /images/leave.jpg
