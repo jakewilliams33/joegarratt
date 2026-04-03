@@ -1,5 +1,14 @@
 ---
 releases:
+  - deezer: https://link.deezer.com/s/32T7NdnaUIItdRgT8kTRR
+    youtube: https://www.youtube.com/watch?v=7x3j2fTIjeI
+    amazon: https://music.amazon.co.uk/albums/B0GN9LZ4X9
+    displayOnMusicPage: yes
+    title: the night
+    tidal: https://tidal.com/track/498827721/u
+    spotify: https://open.spotify.com/track/46zNu7e4pk9zACVfHARqkX
+    apple: https://music.apple.com/us/song/the-night/1877681731
+    image: /images/the-night-800px.jpg
   - deezer: https://link.deezer.com/s/32Lcx4O4VRTxYSbv71VZA
     youtube: https://www.youtube.com/watch?v=FzB12NOwVsg
     amazon: https://music.amazon.co.uk/tracks/B0GS3QTY2S
@@ -149,13 +158,4 @@ releases:
     spotify: https://open.spotify.com/track/0dNF16MKfcvoSevYwaQYoD
     apple: https://music.apple.com/us/album/down/1659342576
     image: /images/down.jpg
-  - deezer: https://link.deezer.com/s/32T7NdnaUIItdRgT8kTRR
-    youtube: https://www.youtube.com/watch?v=7x3j2fTIjeI
-    amazon: https://music.amazon.co.uk/albums/B0GN9LZ4X9
-    displayOnMusicPage: yes
-    title: the night
-    tidal: https://tidal.com/track/498827721/u
-    spotify: https://open.spotify.com/track/46zNu7e4pk9zACVfHARqkX
-    apple: https://music.apple.com/us/song/the-night/1877681731
-    image: /images/the-night-800px.jpg
 ---
