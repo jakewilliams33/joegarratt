@@ -1,5 +1,15 @@
 ---
 releases:
+  - deezer: https://link.deezer.com/s/33bnAKTYMLWoutqqmAAbv
+    youtube: https://www.youtube.com/watch?v=lY4p39BHKc8
+    amazon: https://music.amazon.co.uk/albums/B0GT27Z8Y3
+    displayOnMusicPage: yes
+    bandcamp: https://joegarratt.bandcamp.com/track/excuses-hifeelings-remix
+    title: excuses (HIFEELINGS Remix)
+    tidal: https://tidal.com/track/508210418/u
+    spotify: https://open.spotify.com/track/1LI7HfRYXIdiMmXGAmwmmB
+    apple: https://music.apple.com/us/song/excuses-hifeelings-remix/1886361915
+    image: /images/excuseshifeelingsremix800px.jpg
   - deezer: https://link.deezer.com/s/32T7NdnaUIItdRgT8kTRR
     youtube: https://www.youtube.com/watch?v=7x3j2fTIjeI
     amazon: https://music.amazon.co.uk/albums/B0GN9LZ4X9
