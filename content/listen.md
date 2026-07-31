@@ -1,5 +1,14 @@
 ---
 releases:
+  - deezer: https://link.deezer.com/s/33Z5uBmN3o5woeLq1gG4U
+    youtube: https://youtu.be/GbcdnoZupHg
+    amazon: https://music.amazon.co.uk/tracks/B0H9XQ21SM
+    displayOnMusicPage: yes
+    title: ur not alone
+    tidal: https://tidal.com/track/545311897/u
+    spotify: https://open.spotify.com/track/4GkaM7nyLiCDFHyLMSA76G
+    apple: https://music.apple.com/us/song/ur-not-alone/6793420345
+    image: /images/ur-not-alone-800px.jpg
   - deezer: https://link.deezer.com/s/33bnAKTYMLWoutqqmAAbv
     youtube: https://www.youtube.com/watch?v=lY4p39BHKc8
     amazon: https://music.amazon.co.uk/albums/B0GT27Z8Y3
