@@ -1,8 +1,15 @@
 ---
 releases:
-  - title: excuses (NVIUS Remix)
+  - presave: ""
+    deezer: https://link.deezer.com/s/34KRB8PM9qsWgerSSQ6al
+    youtube: https://www.youtube.com/watch?v=IvIttSlx_aE
+    amazon: https://music.amazon.co.uk/tracks/B0HLCR7V2M/
     displayOnMusicPage: yes
-    presave: https://hypeddit.com/joegarratt/excusesnviusremix
+    bandcamp: https://joegarratt.bandcamp.com/track/excuses-nvius-remix
+    title: excuses (NVIUS Remix)
+    tidal: https://tidal.com/track/565151480/u
+    spotify: https://open.spotify.com/track/69wlSlTqaxefjlC7NXcPkZ
+    apple: https://music.apple.com/gb/song/excuses-nvius-remix/6817224145
     image: /images/excusesnviusremix800px.jpg
   - deezer: https://link.deezer.com/s/33Z5uBmN3o5woeLq1gG4U
     youtube: https://youtu.be/GbcdnoZupHg
