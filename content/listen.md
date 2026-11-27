@@ -1,5 +1,15 @@
 ---
 releases:
+  - deezer: https://link.deezer.com/s/354QD0SWvW0sJEVcfVPkJ
+    youtube: https://www.youtube.com/watch?v=Cwevk1z99Dc
+    amazon: https://music.amazon.co.uk/tracks/B0HP3XM3RN/
+    displayOnMusicPage: yes
+    bandcamp: https://joegarratt.bandcamp.com/track/flutter
+    title: flutter
+    tidal: https://tidal.com/track/580255668/u
+    spotify: https://open.spotify.com/track/1ZlVGjBeHFYAeUYwhVI4Sx
+    apple: https://music.apple.com/gb/song/flutter/6826345199
+    image: /images/flutter-800px.jpg
   - presave: ""
     deezer: https://link.deezer.com/s/34KRB8PM9qsWgerSSQ6al
     youtube: https://www.youtube.com/watch?v=IvIttSlx_aE
